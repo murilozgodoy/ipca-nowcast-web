@@ -1,7 +1,5 @@
 import { useMemo, useState } from "react";
-import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
-import { useBacktestForecasts, useSeriesDetail } from "@/lib/hooks";
-import { formatMonth, formatPercent, modelLabel } from "@/lib/format";
+import { LineChart as LineIcon } from "lucide-react";
 import {
   CartesianGrid,
   Legend,
@@ -12,6 +10,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+
+import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
+import { formatMonth, formatPercent, modelLabel } from "@/lib/format";
+import { useBacktestForecasts, useSeriesDetail } from "@/lib/hooks";
 import { IpcaGroupsCard } from "./IpcaGroupsCard";
 
 const MODELS = [
@@ -23,15 +25,16 @@ const MODELS = [
   "combo_mean",
   "focus_median",
 ];
+
 const COLORS: Record<string, string> = {
-  realized: "#111827",
-  random_walk: "#6b7280",
-  seasonal_naive: "#9ca3af",
-  elasticnet: "#0ea5e9",
-  sarima: "#f59e0b",
-  gradient_boosting: "#8b5cf6",
-  combo_mean: "#10b981",
-  focus_median: "#ef4444",
+  realized: "hsl(var(--foreground))",
+  random_walk: "hsl(var(--muted-foreground))",
+  seasonal_naive: "hsl(215 16% 65%)",
+  elasticnet: "hsl(var(--chart-5))",
+  sarima: "hsl(var(--chart-3))",
+  gradient_boosting: "hsl(var(--chart-4))",
+  combo_mean: "hsl(var(--chart-2))",
+  focus_median: "hsl(var(--chart-6))",
 };
 
 export function InflationPage() {
@@ -85,21 +88,24 @@ export function InflationPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <header>
-        <h1 className="text-2xl font-semibold">Inflação</h1>
-        <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          IPCA realizado versus previsões dos modelos e do Focus, com intervalo de 80% em volta do
-          modelo selecionado.
+      <header className="flex flex-col gap-1">
+        <h1 className="text-display tracking-tight text-foreground">Inflação</h1>
+        <p className="max-w-2xl text-sm text-muted-foreground">
+          IPCA realizado versus previsões dos modelos e do Focus. Intervalo de 80% em volta do
+          modelo selecionado (resíduos empíricos para SARIMA/ElasticNet/GBM).
         </p>
       </header>
+
       <Card
         title="Previsões vs. realizado"
+        subtitle="Painel completo do backtest expanding-window"
+        icon={LineIcon}
         action={
-          <div className="flex flex-wrap gap-2 text-sm">
+          <div className="flex flex-wrap gap-2">
             <select
               value={horizon}
               onChange={(e) => setHorizon(Number(e.target.value))}
-              className="rounded border border-neutral-300 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-900"
+              className="control-select"
               aria-label="Horizonte"
             >
               <option value={0}>Horizonte 0 (nowcast)</option>
@@ -110,7 +116,7 @@ export function InflationPage() {
             <select
               value={bandModel}
               onChange={(e) => setBandModel(e.target.value)}
-              className="rounded border border-neutral-300 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-900"
+              className="control-select"
               aria-label="Modelo com intervalo"
             >
               {["sarima", "elasticnet", "gradient_boosting"].map((m) => (
@@ -128,7 +134,7 @@ export function InflationPage() {
           <EmptyState message="Rode o backtest para preencher este gráfico." />
         ) : (
           <>
-            <div className="mb-3 flex flex-wrap gap-2 text-xs">
+            <div className="mb-4 flex flex-wrap gap-2">
               {MODELS.map((m) => (
                 <button
                   key={m}
@@ -138,30 +144,48 @@ export function InflationPage() {
                       prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m],
                     )
                   }
-                  className={`rounded-full border px-3 py-1 ${
-                    selected.includes(m)
-                      ? "border-brand bg-brand text-brand-foreground"
-                      : "border-neutral-300 text-neutral-700 dark:border-neutral-700 dark:text-neutral-200"
-                  }`}
+                  className={`chip ${selected.includes(m) ? "chip-active" : ""}`}
                 >
+                  <span
+                    className="inline-block h-2 w-2 rounded-full"
+                    style={{ backgroundColor: COLORS[m] }}
+                  />
                   {modelLabel(m)}
                 </button>
               ))}
             </div>
             <div className="h-80 w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={chartData}>
-                  <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-                  <XAxis dataKey="label" minTickGap={16} />
-                  <YAxis unit="%" />
-                  <Tooltip formatter={(v: number) => formatPercent(v)} />
-                  <Legend />
+                <LineChart data={chartData} margin={{ left: 0, right: 8, top: 8, bottom: 4 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--grid))" vertical={false} />
+                  <XAxis
+                    dataKey="label"
+                    minTickGap={16}
+                    stroke="hsl(var(--muted-foreground))"
+                    tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+                  />
+                  <YAxis
+                    unit="%"
+                    stroke="hsl(var(--muted-foreground))"
+                    tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+                  />
+                  <Tooltip
+                    contentStyle={{
+                      borderRadius: 10,
+                      border: "1px solid hsl(var(--border))",
+                      background: "hsl(var(--card))",
+                      color: "hsl(var(--card-foreground))",
+                      fontSize: 12,
+                    }}
+                    formatter={(v: number) => formatPercent(v)}
+                  />
+                  <Legend wrapperStyle={{ fontSize: 11, paddingTop: 8 }} />
                   <Line
                     type="monotone"
                     dataKey="realized"
                     name="Realizado"
                     stroke={COLORS.realized}
-                    strokeWidth={2}
+                    strokeWidth={2.25}
                     dot={false}
                     isAnimationActive={false}
                   />
@@ -184,7 +208,7 @@ export function InflationPage() {
                     name={`PI 80% inf. (${modelLabel(bandModel)})`}
                     stroke={COLORS[bandModel] ?? "#8884d8"}
                     strokeDasharray="4 4"
-                    strokeOpacity={0.5}
+                    strokeOpacity={0.55}
                     dot={false}
                     connectNulls
                     isAnimationActive={false}
@@ -195,7 +219,7 @@ export function InflationPage() {
                     name={`PI 80% sup. (${modelLabel(bandModel)})`}
                     stroke={COLORS[bandModel] ?? "#8884d8"}
                     strokeDasharray="4 4"
-                    strokeOpacity={0.5}
+                    strokeOpacity={0.55}
                     dot={false}
                     connectNulls
                     isAnimationActive={false}

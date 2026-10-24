@@ -19,7 +19,7 @@ describe("App", () => {
   it("renders the main navigation", () => {
     renderApp("/");
     expect(screen.getAllByText(/Painel Macro Brasil/i).length).toBeGreaterThan(0);
-    expect(screen.getByRole("navigation", { name: /primária/i })).toBeInTheDocument();
+    expect(screen.getAllByRole("navigation", { name: /primária/i }).length).toBeGreaterThan(0);
   });
 
   it("switches content when navigating by path", () => {

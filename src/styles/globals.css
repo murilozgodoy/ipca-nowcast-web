@@ -2,22 +2,117 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: 0 0% 100%;
-  --foreground: 222 47% 11%;
-}
-
-.dark {
-  --background: 222 47% 7%;
-  --foreground: 210 40% 98%;
-}
-
+/* ---------------------------------------------------------------------------
+ * Design tokens — Painel Macro Brasil
+ * Light = soft blueish-slate; Dark = deep navy. Both aim for a serious
+ * financial-dashboard feel (think Bloomberg Terminal vs. Linear vs. Neon).
+ * ------------------------------------------------------------------------- */
 @layer base {
+  :root {
+    --background: 214 32% 97%;
+    --foreground: 215 28% 17%;
+    --muted: 215 25% 92%;
+    --muted-foreground: 215 16% 47%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+    --border: 215 24% 88%;
+    --ring: 221 83% 53%;
+
+    --chart-1: 221 83% 53%;
+    --chart-2: 160 84% 39%;
+    --chart-3: 32 95% 44%;
+    --chart-4: 268 83% 58%;
+    --chart-5: 199 89% 48%;
+    --chart-6: 346 77% 50%;
+
+    --grid: 215 20% 82%;
+  }
+
+  .dark {
+    --background: 220 39% 8%;
+    --foreground: 213 31% 92%;
+    --muted: 217 32% 15%;
+    --muted-foreground: 215 20% 65%;
+    --card: 220 35% 11%;
+    --card-foreground: 213 31% 92%;
+    --border: 217 32% 20%;
+    --ring: 217 91% 60%;
+
+    --chart-1: 217 91% 60%;
+    --chart-2: 160 72% 48%;
+    --chart-3: 38 92% 60%;
+    --chart-4: 268 83% 70%;
+    --chart-5: 199 95% 65%;
+    --chart-6: 346 85% 65%;
+
+    --grid: 217 28% 25%;
+  }
+
   html {
-    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "cv11", "ss01";
   }
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
+  }
+  /* Nicer scrollbar on Chromium */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.4);
+  }
+
+  /* Form controls inherit the design tokens */
+  select,
+  input,
+  button {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  .card-surface {
+    @apply rounded-xl border border-border bg-card text-card-foreground shadow-card;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm font-medium text-foreground/80 transition hover:bg-muted hover:text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-0;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-1.5 rounded-md bg-brand px-3 py-1.5 text-sm font-medium text-brand-foreground shadow-soft transition hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background;
+  }
+  .control-select {
+    @apply rounded-md border border-border bg-card px-2.5 py-1.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-0;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-foreground/80 transition hover:bg-muted;
+  }
+  .chip-active {
+    @apply border-brand bg-brand text-brand-foreground hover:bg-brand-700;
+  }
+  .table-pro {
+    @apply w-full text-sm;
+  }
+  .table-pro thead th {
+    @apply pb-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground;
+  }
+  .table-pro tbody tr {
+    @apply border-t border-border/60;
+  }
+  .table-pro tbody tr:hover {
+    @apply bg-muted/40;
+  }
+  .table-pro td {
+    @apply py-2.5;
+  }
+  .nums {
+    @apply font-mono tabular-nums;
+    font-variant-numeric: tabular-nums;
   }
 }

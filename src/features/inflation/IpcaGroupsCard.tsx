@@ -1,7 +1,5 @@
 import { useMemo, useState } from "react";
-import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
-import { useIpcaGroups } from "@/lib/hooks";
-import { formatPercent, formatMonth } from "@/lib/format";
+import { PieChart } from "lucide-react";
 import {
   Bar,
   BarChart,
@@ -12,6 +10,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+
+import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
+import { formatMonth, formatPercent } from "@/lib/format";
+import { useIpcaGroups } from "@/lib/hooks";
 
 export function IpcaGroupsCard() {
   const groups = useIpcaGroups();
@@ -28,7 +30,7 @@ export function IpcaGroupsCard() {
     return groups.data
       .filter((g) => g.reference_date === current)
       .map((g) => ({
-        name: g.group_name.replace(/^\d+\./, "").trim(),
+        name: g.group_name.replace(/^\d+\.?\s*/, "").trim(),
         value: g.monthly_pct,
       }));
   }, [groups.data, current]);
@@ -36,17 +38,14 @@ export function IpcaGroupsCard() {
   return (
     <Card
       title="IPCA por grupos (IBGE/SIDRA)"
-      subtitle={
-        current
-          ? `Variação mensal · ${formatMonth(current)}`
-          : "Variação mensal por grupo de consumo"
-      }
+      subtitle={current ? `Variação mensal · ${formatMonth(current)}` : "Variação mensal por grupo"}
+      icon={PieChart}
       action={
         months.length > 1 ? (
           <select
             value={current ?? ""}
             onChange={(e) => setSelected(e.target.value)}
-            className="rounded border border-neutral-300 bg-white p-1 text-sm dark:border-neutral-700 dark:bg-neutral-900"
+            className="control-select"
             aria-label="Mês de referência"
           >
             {months.map((m) => (
@@ -66,14 +65,39 @@ export function IpcaGroupsCard() {
       {rows.length > 0 && (
         <div className="h-72 w-full">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={rows} margin={{ left: 8, right: 8, top: 12, bottom: 48 }}>
-              <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-              <XAxis dataKey="name" interval={0} angle={-20} textAnchor="end" height={60} />
-              <YAxis unit="%" />
-              <Tooltip formatter={(v: number) => formatPercent(v)} />
-              <Bar dataKey="value" radius={[4, 4, 0, 0]}>
+            <BarChart data={rows} margin={{ left: 0, right: 8, top: 8, bottom: 48 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--grid))" vertical={false} />
+              <XAxis
+                dataKey="name"
+                interval={0}
+                angle={-20}
+                textAnchor="end"
+                height={60}
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+              />
+              <YAxis
+                unit="%"
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+              />
+              <Tooltip
+                cursor={{ fill: "hsl(var(--muted) / 0.5)" }}
+                contentStyle={{
+                  borderRadius: 10,
+                  border: "1px solid hsl(var(--border))",
+                  background: "hsl(var(--card))",
+                  color: "hsl(var(--card-foreground))",
+                  fontSize: 12,
+                }}
+                formatter={(v: number) => formatPercent(v)}
+              />
+              <Bar dataKey="value" radius={[6, 6, 0, 0]}>
                 {rows.map((row) => (
-                  <Cell key={row.name} fill={(row.value ?? 0) >= 0 ? "#005B96" : "#ef4444"} />
+                  <Cell
+                    key={row.name}
+                    fill={(row.value ?? 0) >= 0 ? "hsl(var(--chart-1))" : "hsl(var(--chart-6))"}
+                  />
                 ))}
               </Bar>
             </BarChart>

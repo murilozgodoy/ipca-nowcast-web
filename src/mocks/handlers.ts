@@ -2,6 +2,9 @@ import { http, HttpResponse } from "msw";
 import { API_URL } from "@/lib/api";
 import health from "./fixtures/health.json";
 import series from "./fixtures/series.json";
+import seriesSgs1 from "./fixtures/series_sgs1.json";
+import seriesSgs13522 from "./fixtures/series_sgs13522.json";
+import seriesSgs432 from "./fixtures/series_sgs432.json";
 import seriesSgs433 from "./fixtures/series_sgs433.json";
 import nowcastH0 from "./fixtures/nowcast_latest_h0.json";
 import nowcastH1 from "./fixtures/nowcast_latest_h1.json";
@@ -11,7 +14,10 @@ import focusLatest from "./fixtures/focus_latest.json";
 import ipcaGroups from "./fixtures/ipca_groups.json";
 
 const seriesMap: Record<string, unknown> = {
+  "sgs.1": seriesSgs1,
+  "sgs.432": seriesSgs432,
   "sgs.433": seriesSgs433,
+  "sgs.13522": seriesSgs13522,
 };
 
 export const handlers = [

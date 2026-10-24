@@ -1,0 +1,974 @@
+{
+  "code": "sgs.13522",
+  "name": "IPCA — acumulado em 12 meses",
+  "source": "BCB_SGS",
+  "unit": "percent",
+  "frequency": "monthly",
+  "publication_lag_days": 11,
+  "is_target": false,
+  "first_date": "2003-01-01",
+  "last_date": "2026-09-01",
+  "n": 285,
+  "observations": [
+    {
+      "reference_date": "2006-10-01",
+      "value": 3.26
+    },
+    {
+      "reference_date": "2006-11-01",
+      "value": 3.02
+    },
+    {
+      "reference_date": "2006-12-01",
+      "value": 3.14
+    },
+    {
+      "reference_date": "2007-01-01",
+      "value": 2.99
+    },
+    {
+      "reference_date": "2007-02-01",
+      "value": 3.02
+    },
+    {
+      "reference_date": "2007-03-01",
+      "value": 2.96
+    },
+    {
+      "reference_date": "2007-04-01",
+      "value": 3.0
+    },
+    {
+      "reference_date": "2007-05-01",
+      "value": 3.18
+    },
+    {
+      "reference_date": "2007-06-01",
+      "value": 3.69
+    },
+    {
+      "reference_date": "2007-07-01",
+      "value": 3.74
+    },
+    {
+      "reference_date": "2007-08-01",
+      "value": 4.18
+    },
+    {
+      "reference_date": "2007-09-01",
+      "value": 4.15
+    },
+    {
+      "reference_date": "2007-10-01",
+      "value": 4.12
+    },
+    {
+      "reference_date": "2007-11-01",
+      "value": 4.19
+    },
+    {
+      "reference_date": "2007-12-01",
+      "value": 4.46
+    },
+    {
+      "reference_date": "2008-01-01",
+      "value": 4.56
+    },
+    {
+      "reference_date": "2008-02-01",
+      "value": 4.61
+    },
+    {
+      "reference_date": "2008-03-01",
+      "value": 4.73
+    },
+    {
+      "reference_date": "2008-04-01",
+      "value": 5.04
+    },
+    {
+      "reference_date": "2008-05-01",
+      "value": 5.58
+    },
+    {
+      "reference_date": "2008-06-01",
+      "value": 6.06
+    },
+    {
+      "reference_date": "2008-07-01",
+      "value": 6.37
+    },
+    {
+      "reference_date": "2008-08-01",
+      "value": 6.17
+    },
+    {
+      "reference_date": "2008-09-01",
+      "value": 6.25
+    },
+    {
+      "reference_date": "2008-10-01",
+      "value": 6.41
+    },
+    {
+      "reference_date": "2008-11-01",
+      "value": 6.39
+    },
+    {
+      "reference_date": "2008-12-01",
+      "value": 5.9
+    },
+    {
+      "reference_date": "2009-01-01",
+      "value": 5.84
+    },
+    {
+      "reference_date": "2009-02-01",
+      "value": 5.9
+    },
+    {
+      "reference_date": "2009-03-01",
+      "value": 5.61
+    },
+    {
+      "reference_date": "2009-04-01",
+      "value": 5.53
+    },
+    {
+      "reference_date": "2009-05-01",
+      "value": 5.2
+    },
+    {
+      "reference_date": "2009-06-01",
+      "value": 4.8
+    },
+    {
+      "reference_date": "2009-07-01",
+      "value": 4.5
+    },
+    {
+      "reference_date": "2009-08-01",
+      "value": 4.36
+    },
+    {
+      "reference_date": "2009-09-01",
+      "value": 4.34
+    },
+    {
+      "reference_date": "2009-10-01",
+      "value": 4.17
+    },
+    {
+      "reference_date": "2009-11-01",
+      "value": 4.22
+    },
+    {
+      "reference_date": "2009-12-01",
+      "value": 4.31
+    },
+    {
+      "reference_date": "2010-01-01",
+      "value": 4.59
+    },
+    {
+      "reference_date": "2010-02-01",
+      "value": 4.83
+    },
+    {
+      "reference_date": "2010-03-01",
+      "value": 5.17
+    },
+    {
+      "reference_date": "2010-04-01",
+      "value": 5.26
+    },
+    {
+      "reference_date": "2010-05-01",
+      "value": 5.22
+    },
+    {
+      "reference_date": "2010-06-01",
+      "value": 4.84
+    },
+    {
+      "reference_date": "2010-07-01",
+      "value": 4.6
+    },
+    {
+      "reference_date": "2010-08-01",
+      "value": 4.49
+    },
+    {
+      "reference_date": "2010-09-01",
+      "value": 4.7
+    },
+    {
+      "reference_date": "2010-10-01",
+      "value": 5.2
+    },
+    {
+      "reference_date": "2010-11-01",
+      "value": 5.63
+    },
+    {
+      "reference_date": "2010-12-01",
+      "value": 5.91
+    },
+    {
+      "reference_date": "2011-01-01",
+      "value": 5.99
+    },
+    {
+      "reference_date": "2011-02-01",
+      "value": 6.01
+    },
+    {
+      "reference_date": "2011-03-01",
+      "value": 6.3
+    },
+    {
+      "reference_date": "2011-04-01",
+      "value": 6.51
+    },
+    {
+      "reference_date": "2011-05-01",
+      "value": 6.55
+    },
+    {
+      "reference_date": "2011-06-01",
+      "value": 6.71
+    },
+    {
+      "reference_date": "2011-07-01",
+      "value": 6.87
+    },
+    {
+      "reference_date": "2011-08-01",
+      "value": 7.23
+    },
+    {
+      "reference_date": "2011-09-01",
+      "value": 7.31
+    },
+    {
+      "reference_date": "2011-10-01",
+      "value": 6.97
+    },
+    {
+      "reference_date": "2011-11-01",
+      "value": 6.64
+    },
+    {
+      "reference_date": "2011-12-01",
+      "value": 6.5
+    },
+    {
+      "reference_date": "2012-01-01",
+      "value": 6.22
+    },
+    {
+      "reference_date": "2012-02-01",
+      "value": 5.84
+    },
+    {
+      "reference_date": "2012-03-01",
+      "value": 5.24
+    },
+    {
+      "reference_date": "2012-04-01",
+      "value": 5.1
+    },
+    {
+      "reference_date": "2012-05-01",
+      "value": 4.99
+    },
+    {
+      "reference_date": "2012-06-01",
+      "value": 4.92
+    },
+    {
+      "reference_date": "2012-07-01",
+      "value": 5.2
+    },
+    {
+      "reference_date": "2012-08-01",
+      "value": 5.24
+    },
+    {
+      "reference_date": "2012-09-01",
+      "value": 5.28
+    },
+    {
+      "reference_date": "2012-10-01",
+      "value": 5.45
+    },
+    {
+      "reference_date": "2012-11-01",
+      "value": 5.53
+    },
+    {
+      "reference_date": "2012-12-01",
+      "value": 5.84
+    },
+    {
+      "reference_date": "2013-01-01",
+      "value": 6.15
+    },
+    {
+      "reference_date": "2013-02-01",
+      "value": 6.31
+    },
+    {
+      "reference_date": "2013-03-01",
+      "value": 6.59
+    },
+    {
+      "reference_date": "2013-04-01",
+      "value": 6.49
+    },
+    {
+      "reference_date": "2013-05-01",
+      "value": 6.5
+    },
+    {
+      "reference_date": "2013-06-01",
+      "value": 6.7
+    },
+    {
+      "reference_date": "2013-07-01",
+      "value": 6.27
+    },
+    {
+      "reference_date": "2013-08-01",
+      "value": 6.09
+    },
+    {
+      "reference_date": "2013-09-01",
+      "value": 5.86
+    },
+    {
+      "reference_date": "2013-10-01",
+      "value": 5.84
+    },
+    {
+      "reference_date": "2013-11-01",
+      "value": 5.77
+    },
+    {
+      "reference_date": "2013-12-01",
+      "value": 5.91
+    },
+    {
+      "reference_date": "2014-01-01",
+      "value": 5.59
+    },
+    {
+      "reference_date": "2014-02-01",
+      "value": 5.68
+    },
+    {
+      "reference_date": "2014-03-01",
+      "value": 6.15
+    },
+    {
+      "reference_date": "2014-04-01",
+      "value": 6.28
+    },
+    {
+      "reference_date": "2014-05-01",
+      "value": 6.37
+    },
+    {
+      "reference_date": "2014-06-01",
+      "value": 6.52
+    },
+    {
+      "reference_date": "2014-07-01",
+      "value": 6.5
+    },
+    {
+      "reference_date": "2014-08-01",
+      "value": 6.51
+    },
+    {
+      "reference_date": "2014-09-01",
+      "value": 6.75
+    },
+    {
+      "reference_date": "2014-10-01",
+      "value": 6.59
+    },
+    {
+      "reference_date": "2014-11-01",
+      "value": 6.56
+    },
+    {
+      "reference_date": "2014-12-01",
+      "value": 6.41
+    },
+    {
+      "reference_date": "2015-01-01",
+      "value": 7.14
+    },
+    {
+      "reference_date": "2015-02-01",
+      "value": 7.7
+    },
+    {
+      "reference_date": "2015-03-01",
+      "value": 8.13
+    },
+    {
+      "reference_date": "2015-04-01",
+      "value": 8.17
+    },
+    {
+      "reference_date": "2015-05-01",
+      "value": 8.47
+    },
+    {
+      "reference_date": "2015-06-01",
+      "value": 8.89
+    },
+    {
+      "reference_date": "2015-07-01",
+      "value": 9.56
+    },
+    {
+      "reference_date": "2015-08-01",
+      "value": 9.53
+    },
+    {
+      "reference_date": "2015-09-01",
+      "value": 9.49
+    },
+    {
+      "reference_date": "2015-10-01",
+      "value": 9.93
+    },
+    {
+      "reference_date": "2015-11-01",
+      "value": 10.48
+    },
+    {
+      "reference_date": "2015-12-01",
+      "value": 10.67
+    },
+    {
+      "reference_date": "2016-01-01",
+      "value": 10.71
+    },
+    {
+      "reference_date": "2016-02-01",
+      "value": 10.36
+    },
+    {
+      "reference_date": "2016-03-01",
+      "value": 9.39
+    },
+    {
+      "reference_date": "2016-04-01",
+      "value": 9.28
+    },
+    {
+      "reference_date": "2016-05-01",
+      "value": 9.32
+    },
+    {
+      "reference_date": "2016-06-01",
+      "value": 8.84
+    },
+    {
+      "reference_date": "2016-07-01",
+      "value": 8.74
+    },
+    {
+      "reference_date": "2016-08-01",
+      "value": 8.97
+    },
+    {
+      "reference_date": "2016-09-01",
+      "value": 8.48
+    },
+    {
+      "reference_date": "2016-10-01",
+      "value": 7.87
+    },
+    {
+      "reference_date": "2016-11-01",
+      "value": 6.99
+    },
+    {
+      "reference_date": "2016-12-01",
+      "value": 6.29
+    },
+    {
+      "reference_date": "2017-01-01",
+      "value": 5.35
+    },
+    {
+      "reference_date": "2017-02-01",
+      "value": 4.76
+    },
+    {
+      "reference_date": "2017-03-01",
+      "value": 4.57
+    },
+    {
+      "reference_date": "2017-04-01",
+      "value": 4.08
+    },
+    {
+      "reference_date": "2017-05-01",
+      "value": 3.6
+    },
+    {
+      "reference_date": "2017-06-01",
+      "value": 3.0
+    },
+    {
+      "reference_date": "2017-07-01",
+      "value": 2.71
+    },
+    {
+      "reference_date": "2017-08-01",
+      "value": 2.46
+    },
+    {
+      "reference_date": "2017-09-01",
+      "value": 2.54
+    },
+    {
+      "reference_date": "2017-10-01",
+      "value": 2.7
+    },
+    {
+      "reference_date": "2017-11-01",
+      "value": 2.8
+    },
+    {
+      "reference_date": "2017-12-01",
+      "value": 2.95
+    },
+    {
+      "reference_date": "2018-01-01",
+      "value": 2.86
+    },
+    {
+      "reference_date": "2018-02-01",
+      "value": 2.84
+    },
+    {
+      "reference_date": "2018-03-01",
+      "value": 2.68
+    },
+    {
+      "reference_date": "2018-04-01",
+      "value": 2.76
+    },
+    {
+      "reference_date": "2018-05-01",
+      "value": 2.86
+    },
+    {
+      "reference_date": "2018-06-01",
+      "value": 4.39
+    },
+    {
+      "reference_date": "2018-07-01",
+      "value": 4.48
+    },
+    {
+      "reference_date": "2018-08-01",
+      "value": 4.19
+    },
+    {
+      "reference_date": "2018-09-01",
+      "value": 4.53
+    },
+    {
+      "reference_date": "2018-10-01",
+      "value": 4.56
+    },
+    {
+      "reference_date": "2018-11-01",
+      "value": 4.05
+    },
+    {
+      "reference_date": "2018-12-01",
+      "value": 3.75
+    },
+    {
+      "reference_date": "2019-01-01",
+      "value": 3.78
+    },
+    {
+      "reference_date": "2019-02-01",
+      "value": 3.89
+    },
+    {
+      "reference_date": "2019-03-01",
+      "value": 4.58
+    },
+    {
+      "reference_date": "2019-04-01",
+      "value": 4.94
+    },
+    {
+      "reference_date": "2019-05-01",
+      "value": 4.66
+    },
+    {
+      "reference_date": "2019-06-01",
+      "value": 3.37
+    },
+    {
+      "reference_date": "2019-07-01",
+      "value": 3.22
+    },
+    {
+      "reference_date": "2019-08-01",
+      "value": 3.43
+    },
+    {
+      "reference_date": "2019-09-01",
+      "value": 2.89
+    },
+    {
+      "reference_date": "2019-10-01",
+      "value": 2.54
+    },
+    {
+      "reference_date": "2019-11-01",
+      "value": 3.27
+    },
+    {
+      "reference_date": "2019-12-01",
+      "value": 4.31
+    },
+    {
+      "reference_date": "2020-01-01",
+      "value": 4.19
+    },
+    {
+      "reference_date": "2020-02-01",
+      "value": 4.01
+    },
+    {
+      "reference_date": "2020-03-01",
+      "value": 3.3
+    },
+    {
+      "reference_date": "2020-04-01",
+      "value": 2.4
+    },
+    {
+      "reference_date": "2020-05-01",
+      "value": 1.88
+    },
+    {
+      "reference_date": "2020-06-01",
+      "value": 2.13
+    },
+    {
+      "reference_date": "2020-07-01",
+      "value": 2.31
+    },
+    {
+      "reference_date": "2020-08-01",
+      "value": 2.44
+    },
+    {
+      "reference_date": "2020-09-01",
+      "value": 3.14
+    },
+    {
+      "reference_date": "2020-10-01",
+      "value": 3.92
+    },
+    {
+      "reference_date": "2020-11-01",
+      "value": 4.31
+    },
+    {
+      "reference_date": "2020-12-01",
+      "value": 4.52
+    },
+    {
+      "reference_date": "2021-01-01",
+      "value": 4.56
+    },
+    {
+      "reference_date": "2021-02-01",
+      "value": 5.2
+    },
+    {
+      "reference_date": "2021-03-01",
+      "value": 6.1
+    },
+    {
+      "reference_date": "2021-04-01",
+      "value": 6.76
+    },
+    {
+      "reference_date": "2021-05-01",
+      "value": 8.06
+    },
+    {
+      "reference_date": "2021-06-01",
+      "value": 8.35
+    },
+    {
+      "reference_date": "2021-07-01",
+      "value": 8.99
+    },
+    {
+      "reference_date": "2021-08-01",
+      "value": 9.68
+    },
+    {
+      "reference_date": "2021-09-01",
+      "value": 10.25
+    },
+    {
+      "reference_date": "2021-10-01",
+      "value": 10.67
+    },
+    {
+      "reference_date": "2021-11-01",
+      "value": 10.74
+    },
+    {
+      "reference_date": "2021-12-01",
+      "value": 10.06
+    },
+    {
+      "reference_date": "2022-01-01",
+      "value": 10.38
+    },
+    {
+      "reference_date": "2022-02-01",
+      "value": 10.54
+    },
+    {
+      "reference_date": "2022-03-01",
+      "value": 11.3
+    },
+    {
+      "reference_date": "2022-04-01",
+      "value": 12.13
+    },
+    {
+      "reference_date": "2022-05-01",
+      "value": 11.73
+    },
+    {
+      "reference_date": "2022-06-01",
+      "value": 11.89
+    },
+    {
+      "reference_date": "2022-07-01",
+      "value": 10.07
+    },
+    {
+      "reference_date": "2022-08-01",
+      "value": 8.73
+    },
+    {
+      "reference_date": "2022-09-01",
+      "value": 7.17
+    },
+    {
+      "reference_date": "2022-10-01",
+      "value": 6.47
+    },
+    {
+      "reference_date": "2022-11-01",
+      "value": 5.9
+    },
+    {
+      "reference_date": "2022-12-01",
+      "value": 5.79
+    },
+    {
+      "reference_date": "2023-01-01",
+      "value": 5.77
+    },
+    {
+      "reference_date": "2023-02-01",
+      "value": 5.6
+    },
+    {
+      "reference_date": "2023-03-01",
+      "value": 4.65
+    },
+    {
+      "reference_date": "2023-04-01",
+      "value": 4.18
+    },
+    {
+      "reference_date": "2023-05-01",
+      "value": 3.94
+    },
+    {
+      "reference_date": "2023-06-01",
+      "value": 3.16
+    },
+    {
+      "reference_date": "2023-07-01",
+      "value": 3.99
+    },
+    {
+      "reference_date": "2023-08-01",
+      "value": 4.61
+    },
+    {
+      "reference_date": "2023-09-01",
+      "value": 5.19
+    },
+    {
+      "reference_date": "2023-10-01",
+      "value": 4.82
+    },
+    {
+      "reference_date": "2023-11-01",
+      "value": 4.68
+    },
+    {
+      "reference_date": "2023-12-01",
+      "value": 4.62
+    },
+    {
+      "reference_date": "2024-01-01",
+      "value": 4.51
+    },
+    {
+      "reference_date": "2024-02-01",
+      "value": 4.5
+    },
+    {
+      "reference_date": "2024-03-01",
+      "value": 3.93
+    },
+    {
+      "reference_date": "2024-04-01",
+      "value": 3.69
+    },
+    {
+      "reference_date": "2024-05-01",
+      "value": 3.93
+    },
+    {
+      "reference_date": "2024-06-01",
+      "value": 4.23
+    },
+    {
+      "reference_date": "2024-07-01",
+      "value": 4.5
+    },
+    {
+      "reference_date": "2024-08-01",
+      "value": 4.24
+    },
+    {
+      "reference_date": "2024-09-01",
+      "value": 4.42
+    },
+    {
+      "reference_date": "2024-10-01",
+      "value": 4.76
+    },
+    {
+      "reference_date": "2024-11-01",
+      "value": 4.87
+    },
+    {
+      "reference_date": "2024-12-01",
+      "value": 4.83
+    },
+    {
+      "reference_date": "2025-01-01",
+      "value": 4.56
+    },
+    {
+      "reference_date": "2025-02-01",
+      "value": 5.06
+    },
+    {
+      "reference_date": "2025-03-01",
+      "value": 5.48
+    },
+    {
+      "reference_date": "2025-04-01",
+      "value": 5.53
+    },
+    {
+      "reference_date": "2025-05-01",
+      "value": 5.32
+    },
+    {
+      "reference_date": "2025-06-01",
+      "value": 5.35
+    },
+    {
+      "reference_date": "2025-07-01",
+      "value": 5.23
+    },
+    {
+      "reference_date": "2025-08-01",
+      "value": 5.13
+    },
+    {
+      "reference_date": "2025-09-01",
+      "value": 5.17
+    },
+    {
+      "reference_date": "2025-10-01",
+      "value": 4.68
+    },
+    {
+      "reference_date": "2025-11-01",
+      "value": 4.46
+    },
+    {
+      "reference_date": "2025-12-01",
+      "value": 4.26
+    },
+    {
+      "reference_date": "2026-01-01",
+      "value": 4.44
+    },
+    {
+      "reference_date": "2026-02-01",
+      "value": 3.81
+    },
+    {
+      "reference_date": "2026-03-01",
+      "value": 4.14
+    },
+    {
+      "reference_date": "2026-04-01",
+      "value": 4.39
+    },
+    {
+      "reference_date": "2026-05-01",
+      "value": 4.72
+    },
+    {
+      "reference_date": "2026-06-01",
+      "value": 4.64
+    },
+    {
+      "reference_date": "2026-07-01",
+      "value": 4.44
+    },
+    {
+      "reference_date": "2026-08-01",
+      "value": 4.22
+    },
+    {
+      "reference_date": "2026-09-01",
+      "value": 4.58
+    }
+  ]
+}

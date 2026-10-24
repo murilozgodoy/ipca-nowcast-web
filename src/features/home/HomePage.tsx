@@ -1,7 +1,18 @@
-import { Card, EmptyState, ErrorBanner, Kpi, LoadingBar } from "@/components/Card";
+import { Banknote, DollarSign, Gauge, LineChart as LineIcon, Percent, Target } from "lucide-react";
+
+import { Badge, Card, EmptyState, ErrorBanner, Kpi, LoadingBar, Skeleton } from "@/components/Card";
+import { formatMonth, formatNumber, formatPercent, modelLabel } from "@/lib/format";
 import { useFocusLatest, useNowcast, useSeriesDetail } from "@/lib/hooks";
-import { formatMonth, formatPercent, modelLabel } from "@/lib/format";
-import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const SELIC_CODE = "sgs.432";
 const USD_CODE = "sgs.1";
@@ -16,11 +27,51 @@ export function HomePage() {
   const selic = useSeriesDetail(SELIC_CODE);
   const dollar = useSeriesDetail(USD_CODE);
 
-  const lastIpcaMom = ipcaMom.data?.observations.at(-1)?.value ?? null;
-  const lastIpcaMomDate = ipcaMom.data?.observations.at(-1)?.reference_date ?? null;
-  const lastIpca12m = ipca12m.data?.observations.at(-1)?.value ?? null;
+  const momObs = ipcaMom.data?.observations ?? [];
+  const lastIpcaMom = momObs.at(-1)?.value ?? null;
+  const prevIpcaMom = momObs.at(-2)?.value ?? null;
+  const lastIpcaMomDate = momObs.at(-1)?.reference_date ?? null;
+  const momTrend =
+    lastIpcaMom != null && prevIpcaMom != null
+      ? ({
+          trend: lastIpcaMom > prevIpcaMom ? "up" : lastIpcaMom < prevIpcaMom ? "down" : "flat",
+          label: formatPercent(lastIpcaMom - prevIpcaMom, 2),
+          tone: lastIpcaMom > prevIpcaMom ? "negative" : "positive",
+        } as const)
+      : null;
+
+  const last12 = ipca12m.data?.observations.at(-1)?.value ?? null;
+  const prev12 = ipca12m.data?.observations.at(-2)?.value ?? null;
+  const trend12 =
+    last12 != null && prev12 != null
+      ? ({
+          trend: last12 > prev12 ? "up" : last12 < prev12 ? "down" : "flat",
+          label: formatPercent(last12 - prev12, 2),
+          tone: last12 > prev12 ? "negative" : "positive",
+        } as const)
+      : null;
+
   const lastSelic = selic.data?.observations.at(-1)?.value ?? null;
+  const prevSelic = selic.data?.observations.at(-2)?.value ?? null;
+  const trendSelic =
+    lastSelic != null && prevSelic != null
+      ? ({
+          trend: lastSelic > prevSelic ? "up" : lastSelic < prevSelic ? "down" : "flat",
+          label: formatPercent(lastSelic - prevSelic, 2),
+          tone: "neutral",
+        } as const)
+      : null;
+
   const lastDollar = dollar.data?.observations.at(-1)?.value ?? null;
+  const prevDollar = dollar.data?.observations.at(-2)?.value ?? null;
+  const trendDollar =
+    lastDollar != null && prevDollar != null
+      ? ({
+          trend: lastDollar > prevDollar ? "up" : lastDollar < prevDollar ? "down" : "flat",
+          label: formatNumber(lastDollar - prevDollar, 4),
+          tone: "neutral",
+        } as const)
+      : null;
 
   const anyLoading =
     nowcast.isLoading ||
@@ -32,23 +83,61 @@ export function HomePage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <header>
-        <h1 className="text-2xl font-semibold">Painel Macro Brasil</h1>
-        <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          Nowcasting do IPCA com dados públicos (BCB SGS, Focus e IBGE) e comparação honesta com o
-          consenso do mercado.
+      <header className="flex flex-col gap-2">
+        <div className="flex items-center gap-3">
+          <Badge tone="brand">Nowcast IPCA</Badge>
+          {lastIpcaMomDate && (
+            <span className="text-xs text-muted-foreground">
+              Último IPCA divulgado · {formatMonth(lastIpcaMomDate)}
+            </span>
+          )}
+        </div>
+        <h1 className="text-display tracking-tight text-foreground">Painel Macro Brasil</h1>
+        <p className="max-w-2xl text-sm text-muted-foreground">
+          Previsão do IPCA com dados públicos (BCB SGS, Boletim Focus, IBGE SIDRA e ANP) e
+          comparação honesta e rigorosa com o consenso do mercado.
         </p>
       </header>
+
       {anyLoading && <LoadingBar />}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Kpi
-          label="IPCA mensal (último)"
+          label="IPCA mensal"
           value={formatPercent(lastIpcaMom)}
-          hint={lastIpcaMomDate ? formatMonth(lastIpcaMomDate) : undefined}
+          hint={lastIpcaMomDate ? `${formatMonth(lastIpcaMomDate)} · variação m/m` : undefined}
+          icon={Percent}
+          trend={momTrend?.trend ?? null}
+          trendLabel={momTrend?.label}
+          trendTone={momTrend?.tone}
         />
-        <Kpi label="IPCA 12 meses" value={formatPercent(lastIpca12m)} />
-        <Kpi label="Selic meta" value={formatPercent(lastSelic)} />
-        <Kpi label="Dólar PTAX" value={formatPercent(lastDollar, 4).replace("%", "")} />
+        <Kpi
+          label="IPCA 12 meses"
+          value={formatPercent(last12)}
+          hint="Acumulado últimos 12 meses"
+          icon={Target}
+          trend={trend12?.trend ?? null}
+          trendLabel={trend12?.label}
+          trendTone={trend12?.tone}
+        />
+        <Kpi
+          label="Selic meta"
+          value={formatPercent(lastSelic, 2)}
+          hint="BCB · taxa anualizada"
+          icon={Gauge}
+          trend={trendSelic?.trend ?? null}
+          trendLabel={trendSelic?.label}
+          trendTone={trendSelic?.tone}
+        />
+        <Kpi
+          label="Dólar PTAX"
+          value={lastDollar != null ? `R$ ${formatNumber(lastDollar, 4)}` : "—"}
+          hint="Fechamento mais recente"
+          icon={DollarSign}
+          trend={trendDollar?.trend ?? null}
+          trendLabel={trendDollar?.label}
+          trendTone={trendDollar?.tone}
+        />
       </div>
 
       <Card
@@ -56,45 +145,60 @@ export function HomePage() {
         subtitle={
           nowcast.data
             ? `Mês-alvo ${formatMonth(nowcast.data.target_month)} · origem ${nowcast.data.origin_date}`
-            : undefined
+            : "Executando previsão com dados mais recentes…"
         }
+        icon={LineIcon}
       >
         {nowcast.isError && <ErrorBanner error={nowcast.error} />}
+        {nowcast.isLoading && !nowcast.data && (
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <Skeleton key={i} className="h-16" />
+            ))}
+          </div>
+        )}
         {nowcast.data && <NowcastChart data={nowcast.data} />}
         {!nowcast.data && !nowcast.isLoading && !nowcast.isError && (
           <EmptyState message="Sem dados de nowcast disponíveis." />
         )}
       </Card>
 
-      <Card title="Expectativas Focus — últimos meses de referência">
+      <Card
+        title="Expectativas Focus"
+        subtitle="Mediana dos economistas para os próximos meses de referência"
+        icon={Banknote}
+      >
         {focusList.data && focusList.data.length > 0 ? (
-          <table className="min-w-full text-sm">
-            <thead>
-              <tr className="text-left text-neutral-500 dark:text-neutral-400">
-                <th className="py-2">Mês</th>
-                <th className="py-2">Mediana</th>
-                <th className="py-2">Média</th>
-                <th className="py-2">Coleta</th>
-                <th className="py-2">N</th>
-              </tr>
-            </thead>
-            <tbody>
-              {focusList.data.map((row) => (
-                <tr
-                  key={`${row.reference_date}-${row.collected_at}`}
-                  className="border-t border-neutral-200 dark:border-neutral-800"
-                >
-                  <td className="py-2 font-medium">{formatMonth(row.reference_date)}</td>
-                  <td className="py-2 tabular-nums">{formatPercent(row.median)}</td>
-                  <td className="py-2 tabular-nums">{formatPercent(row.mean)}</td>
-                  <td className="py-2">{row.collected_at}</td>
-                  <td className="py-2 tabular-nums">{row.n_respondents ?? "—"}</td>
+          <div className="overflow-x-auto">
+            <table className="table-pro">
+              <thead>
+                <tr>
+                  <th>Mês</th>
+                  <th className="text-right">Mediana</th>
+                  <th className="text-right">Média</th>
+                  <th className="text-right">Desvio-padrão</th>
+                  <th>Data da coleta</th>
+                  <th className="text-right">N</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {focusList.data.map((row) => (
+                  <tr key={`${row.reference_date}-${row.collected_at}`}>
+                    <td className="font-medium">{formatMonth(row.reference_date)}</td>
+                    <td className="nums text-right">{formatPercent(row.median)}</td>
+                    <td className="nums text-right">{formatPercent(row.mean)}</td>
+                    <td className="nums text-right text-muted-foreground">
+                      {formatNumber(row.std_dev, 3)}
+                    </td>
+                    <td className="text-muted-foreground">{row.collected_at}</td>
+                    <td className="nums text-right">{row.n_respondents ?? "—"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         ) : (
-          <EmptyState message="Sem expectativas carregadas." />
+          !focusList.isLoading && <EmptyState message="Sem expectativas carregadas." />
         )}
       </Card>
     </div>
@@ -105,26 +209,60 @@ function NowcastChart({ data }: { data: NonNullable<ReturnType<typeof useNowcast
   const rows = data.models.map((m) => ({
     model: modelLabel(m.model),
     prediction: Number(m.prediction.toFixed(3)),
-    isFocus: m.model === "focus_median",
+    key: m.model,
   }));
   if (data.focus_median !== null) {
     rows.push({
       model: modelLabel("focus_median"),
       prediction: Number(data.focus_median.toFixed(3)),
-      isFocus: true,
+      key: "focus_median",
     });
   }
   return (
     <div className="h-72 w-full">
       <ResponsiveContainer width="100%" height="100%">
-        <BarChart data={rows} margin={{ left: 8, right: 8, top: 12, bottom: 32 }}>
-          <XAxis dataKey="model" interval={0} angle={-20} textAnchor="end" height={60} />
-          <YAxis unit="%" />
+        <BarChart data={rows} margin={{ left: 0, right: 8, top: 8, bottom: 48 }}>
+          <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--grid))" vertical={false} />
+          <XAxis
+            dataKey="model"
+            interval={0}
+            angle={-20}
+            textAnchor="end"
+            height={60}
+            stroke="hsl(var(--muted-foreground))"
+            tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+          />
+          <YAxis
+            unit="%"
+            stroke="hsl(var(--muted-foreground))"
+            tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 11 }}
+          />
           <Tooltip
-            formatter={(value: number) => formatPercent(value, 3)}
+            cursor={{ fill: "hsl(var(--muted) / 0.5)" }}
+            contentStyle={{
+              borderRadius: 10,
+              border: "1px solid hsl(var(--border))",
+              background: "hsl(var(--card))",
+              color: "hsl(var(--card-foreground))",
+              fontSize: 12,
+            }}
+            formatter={(v: number) => formatPercent(v, 3)}
             labelFormatter={(label: string) => `Modelo: ${label}`}
           />
-          <Bar dataKey="prediction" radius={[6, 6, 0, 0]} fill="#005B96" />
+          <Bar dataKey="prediction" radius={[6, 6, 0, 0]}>
+            {rows.map((row) => (
+              <Cell
+                key={row.key}
+                fill={
+                  row.key === "focus_median"
+                    ? "hsl(var(--chart-6))"
+                    : row.key === "combo_mean"
+                      ? "hsl(var(--chart-2))"
+                      : "hsl(var(--chart-1))"
+                }
+              />
+            ))}
+          </Bar>
         </BarChart>
       </ResponsiveContainer>
     </div>
