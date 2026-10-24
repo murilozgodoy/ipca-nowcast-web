@@ -1,6 +1,6 @@
 import { Card } from "@/components/Card";
 
-export const LINKEDIN_URL = "LINKEDIN_URL"; // ← substituir pelo link real
+export const LINKEDIN_URL = "https://www.linkedin.com/in/murilozgodoy";
 
 export function AboutPage() {
   return (
@@ -47,9 +47,8 @@ export function AboutPage() {
           <li>
             LinkedIn —{" "}
             <a className="text-brand underline" href={LINKEDIN_URL}>
-              {LINKEDIN_URL}
-            </a>{" "}
-            <span className="text-xs text-neutral-500">(em breve)</span>
+              linkedin.com/in/murilozgodoy
+            </a>
           </li>
         </ul>
       </Card>
