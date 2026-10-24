@@ -1,0 +1,65 @@
+[
+  {
+    "code": "sgs.1",
+    "name": "Dólar — PTAX venda",
+    "source": "BCB_SGS",
+    "unit": "BRL_per_USD",
+    "frequency": "daily",
+    "publication_lag_days": 1,
+    "is_target": false
+  },
+  {
+    "code": "sgs.13522",
+    "name": "IPCA — acumulado em 12 meses",
+    "source": "BCB_SGS",
+    "unit": "percent",
+    "frequency": "monthly",
+    "publication_lag_days": 11,
+    "is_target": false
+  },
+  {
+    "code": "sgs.188",
+    "name": "INPC — variação mensal",
+    "source": "BCB_SGS",
+    "unit": "percent_month",
+    "frequency": "monthly",
+    "publication_lag_days": 13,
+    "is_target": false
+  },
+  {
+    "code": "sgs.189",
+    "name": "IGP-M — variação mensal",
+    "source": "BCB_SGS",
+    "unit": "percent_month",
+    "frequency": "monthly",
+    "publication_lag_days": 2,
+    "is_target": false
+  },
+  {
+    "code": "sgs.24364",
+    "name": "IBC-Br — índice dessazonalizado",
+    "source": "BCB_SGS",
+    "unit": "index",
+    "frequency": "monthly",
+    "publication_lag_days": 45,
+    "is_target": false
+  },
+  {
+    "code": "sgs.432",
+    "name": "Selic — meta anualizada",
+    "source": "BCB_SGS",
+    "unit": "percent_year",
+    "frequency": "daily",
+    "publication_lag_days": 1,
+    "is_target": false
+  },
+  {
+    "code": "sgs.433",
+    "name": "IPCA — variação mensal",
+    "source": "BCB_SGS",
+    "unit": "percent_month",
+    "frequency": "monthly",
+    "publication_lag_days": 11,
+    "is_target": true
+  }
+]

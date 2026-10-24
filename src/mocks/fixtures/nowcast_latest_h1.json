@@ -1,0 +1,50 @@
+{
+  "origin_date": "2026-10-23",
+  "target_month": "2026-11-01",
+  "horizon": 1,
+  "models": [
+    {
+      "model": "random_walk",
+      "prediction": 0.56,
+      "pi_lower": null,
+      "pi_upper": null
+    },
+    {
+      "model": "historical_mean",
+      "prediction": 0.38833333333333336,
+      "pi_lower": null,
+      "pi_upper": null
+    },
+    {
+      "model": "seasonal_naive",
+      "prediction": 0.56,
+      "pi_lower": null,
+      "pi_upper": null
+    },
+    {
+      "model": "elasticnet",
+      "prediction": 0.4684531350559264,
+      "pi_lower": null,
+      "pi_upper": null
+    },
+    {
+      "model": "sarima",
+      "prediction": 0.6721072030191714,
+      "pi_lower": -230512544.20376763,
+      "pi_upper": 230512545.547982
+    },
+    {
+      "model": "gradient_boosting",
+      "prediction": 0.543869441894849,
+      "pi_lower": null,
+      "pi_upper": null
+    },
+    {
+      "model": "combo_mean",
+      "prediction": 0.5614765933233156,
+      "pi_lower": null,
+      "pi_upper": null
+    }
+  ],
+  "focus_median": 0.56
+}

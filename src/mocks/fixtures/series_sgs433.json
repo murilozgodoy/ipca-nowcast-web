@@ -1,0 +1,246 @@
+{
+  "code": "sgs.433",
+  "name": "IPCA — variação mensal",
+  "source": "BCB_SGS",
+  "unit": "percent_month",
+  "frequency": "monthly",
+  "publication_lag_days": 11,
+  "is_target": true,
+  "first_date": "2020-01-01",
+  "last_date": "2024-10-01",
+  "n": 58,
+  "observations": [
+    {
+      "reference_date": "2020-01-01",
+      "value": 0.21
+    },
+    {
+      "reference_date": "2020-02-01",
+      "value": 0.25
+    },
+    {
+      "reference_date": "2020-03-01",
+      "value": 0.07
+    },
+    {
+      "reference_date": "2020-04-01",
+      "value": -0.31
+    },
+    {
+      "reference_date": "2020-05-01",
+      "value": -0.38
+    },
+    {
+      "reference_date": "2020-06-01",
+      "value": 0.26
+    },
+    {
+      "reference_date": "2020-07-01",
+      "value": 0.36
+    },
+    {
+      "reference_date": "2020-08-01",
+      "value": 0.24
+    },
+    {
+      "reference_date": "2020-09-01",
+      "value": 0.64
+    },
+    {
+      "reference_date": "2020-10-01",
+      "value": 0.86
+    },
+    {
+      "reference_date": "2020-11-01",
+      "value": 0.89
+    },
+    {
+      "reference_date": "2020-12-01",
+      "value": 1.35
+    },
+    {
+      "reference_date": "2021-01-01",
+      "value": 0.25
+    },
+    {
+      "reference_date": "2021-02-01",
+      "value": 0.86
+    },
+    {
+      "reference_date": "2021-03-01",
+      "value": 0.93
+    },
+    {
+      "reference_date": "2021-04-01",
+      "value": 0.31
+    },
+    {
+      "reference_date": "2021-05-01",
+      "value": 0.83
+    },
+    {
+      "reference_date": "2021-06-01",
+      "value": 0.53
+    },
+    {
+      "reference_date": "2021-07-01",
+      "value": 0.96
+    },
+    {
+      "reference_date": "2021-08-01",
+      "value": 0.87
+    },
+    {
+      "reference_date": "2021-09-01",
+      "value": 1.16
+    },
+    {
+      "reference_date": "2021-10-01",
+      "value": 1.25
+    },
+    {
+      "reference_date": "2021-11-01",
+      "value": 0.95
+    },
+    {
+      "reference_date": "2021-12-01",
+      "value": 0.73
+    },
+    {
+      "reference_date": "2022-01-01",
+      "value": 0.54
+    },
+    {
+      "reference_date": "2022-02-01",
+      "value": 1.01
+    },
+    {
+      "reference_date": "2022-03-01",
+      "value": 1.62
+    },
+    {
+      "reference_date": "2022-04-01",
+      "value": 1.06
+    },
+    {
+      "reference_date": "2022-05-01",
+      "value": 0.47
+    },
+    {
+      "reference_date": "2022-06-01",
+      "value": 0.67
+    },
+    {
+      "reference_date": "2022-07-01",
+      "value": -0.68
+    },
+    {
+      "reference_date": "2022-08-01",
+      "value": -0.36
+    },
+    {
+      "reference_date": "2022-09-01",
+      "value": -0.29
+    },
+    {
+      "reference_date": "2022-10-01",
+      "value": 0.59
+    },
+    {
+      "reference_date": "2022-11-01",
+      "value": 0.41
+    },
+    {
+      "reference_date": "2022-12-01",
+      "value": 0.62
+    },
+    {
+      "reference_date": "2023-01-01",
+      "value": 0.53
+    },
+    {
+      "reference_date": "2023-02-01",
+      "value": 0.84
+    },
+    {
+      "reference_date": "2023-03-01",
+      "value": 0.71
+    },
+    {
+      "reference_date": "2023-04-01",
+      "value": 0.61
+    },
+    {
+      "reference_date": "2023-05-01",
+      "value": 0.23
+    },
+    {
+      "reference_date": "2023-06-01",
+      "value": -0.08
+    },
+    {
+      "reference_date": "2023-07-01",
+      "value": 0.12
+    },
+    {
+      "reference_date": "2023-08-01",
+      "value": 0.23
+    },
+    {
+      "reference_date": "2023-09-01",
+      "value": 0.26
+    },
+    {
+      "reference_date": "2023-10-01",
+      "value": 0.24
+    },
+    {
+      "reference_date": "2023-11-01",
+      "value": 0.28
+    },
+    {
+      "reference_date": "2023-12-01",
+      "value": 0.56
+    },
+    {
+      "reference_date": "2024-01-01",
+      "value": 0.42
+    },
+    {
+      "reference_date": "2024-02-01",
+      "value": 0.83
+    },
+    {
+      "reference_date": "2024-03-01",
+      "value": 0.16
+    },
+    {
+      "reference_date": "2024-04-01",
+      "value": 0.38
+    },
+    {
+      "reference_date": "2024-05-01",
+      "value": 0.46
+    },
+    {
+      "reference_date": "2024-06-01",
+      "value": 0.21
+    },
+    {
+      "reference_date": "2024-07-01",
+      "value": 0.38
+    },
+    {
+      "reference_date": "2024-08-01",
+      "value": -0.02
+    },
+    {
+      "reference_date": "2024-09-01",
+      "value": 0.44
+    },
+    {
+      "reference_date": "2024-10-01",
+      "value": 0.56
+    }
+  ]
+}

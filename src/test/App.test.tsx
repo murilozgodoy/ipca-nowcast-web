@@ -18,12 +18,17 @@ function renderApp(initialPath = "/"): void {
 describe("App", () => {
   it("renders the main navigation", () => {
     renderApp("/");
-    expect(screen.getByText(/Painel Macro Brasil/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Painel Macro Brasil/i).length).toBeGreaterThan(0);
     expect(screen.getByRole("navigation", { name: /primária/i })).toBeInTheDocument();
   });
 
   it("switches content when navigating by path", () => {
-    renderApp("/inflacao");
-    expect(screen.getByRole("heading", { name: /Inflação/i })).toBeInTheDocument();
+    renderApp("/metodologia");
+    expect(screen.getByRole("heading", { name: /Metodologia/i })).toBeInTheDocument();
+  });
+
+  it("renders the models leaderboard heading", () => {
+    renderApp("/modelos");
+    expect(screen.getByRole("heading", { name: /Modelos/i })).toBeInTheDocument();
   });
 });

@@ -1,45 +1,61 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Link, NavLink, Route, Routes } from "react-router-dom";
+import { HomePage } from "@/features/home/HomePage";
+import { InflationPage } from "@/features/inflation/InflationPage";
+import { ModelsPage } from "@/features/models/ModelsPage";
+import { SeriesPage } from "@/features/series/SeriesPage";
+import { MethodologyPage } from "@/features/static/MethodologyPage";
+import { AboutPage } from "@/features/static/AboutPage";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
-export default function App(): JSX.Element {
+const NAV = [
+  { to: "/", label: "Visão geral", end: true },
+  { to: "/inflacao", label: "Inflação", end: false },
+  { to: "/modelos", label: "Modelos", end: false },
+  { to: "/series", label: "Séries", end: false },
+  { to: "/metodologia", label: "Metodologia", end: false },
+  { to: "/sobre", label: "Sobre", end: false },
+];
+
+export default function App() {
   return (
     <div className="min-h-screen">
       <header className="border-b bg-brand text-brand-foreground">
-        <div className="container flex items-center justify-between py-3">
-          <Link to="/" className="font-semibold">
+        <div className="container flex flex-col gap-3 py-3 sm:flex-row sm:items-center sm:justify-between">
+          <Link to="/" className="text-base font-semibold tracking-tight">
             Painel Macro Brasil
           </Link>
-          <nav aria-label="Primária" className="flex gap-4 text-sm">
-            <Link to="/">Visão geral</Link>
-            <Link to="/inflacao">Inflação</Link>
-            <Link to="/modelos">Modelos</Link>
-            <Link to="/series">Séries</Link>
-            <Link to="/metodologia">Metodologia</Link>
-            <Link to="/sobre">Sobre</Link>
+          <nav aria-label="Primária" className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+            {NAV.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                className={({ isActive }) =>
+                  `rounded px-2 py-1 ${
+                    isActive ? "bg-white/15 font-semibold" : "hover:bg-white/10"
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
           </nav>
+          <ThemeToggle />
         </div>
       </header>
       <main className="container py-6">
         <Routes>
-          <Route path="/" element={<Placeholder title="Visão geral" />} />
-          <Route path="/inflacao" element={<Placeholder title="Inflação" />} />
-          <Route path="/modelos" element={<Placeholder title="Modelos" />} />
-          <Route path="/series" element={<Placeholder title="Séries" />} />
-          <Route path="/metodologia" element={<Placeholder title="Metodologia" />} />
-          <Route path="/sobre" element={<Placeholder title="Sobre" />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/inflacao" element={<InflationPage />} />
+          <Route path="/modelos" element={<ModelsPage />} />
+          <Route path="/series" element={<SeriesPage />} />
+          <Route path="/metodologia" element={<MethodologyPage />} />
+          <Route path="/sobre" element={<AboutPage />} />
         </Routes>
       </main>
+      <footer className="border-t border-neutral-200 py-4 text-center text-xs text-neutral-500 dark:border-neutral-800">
+        Projeto open-source · Dados do BCB (SGS/Focus) e IBGE · pt-BR
+      </footer>
     </div>
-  );
-}
-
-function Placeholder({ title }: { title: string }): JSX.Element {
-  return (
-    <section>
-      <h1 className="text-2xl font-semibold">{title}</h1>
-      <p className="mt-2 text-sm text-neutral-600">
-        Página em construção — veja o progresso em{" "}
-        <code>ipca-nowcast-api/docs/project/PROGRESS.md</code>.
-      </p>
-    </section>
   );
 }
