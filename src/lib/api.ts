@@ -91,6 +91,15 @@ export const FocusLatestPoint = z.object({
 export type FocusLatestPoint = z.infer<typeof FocusLatestPoint>;
 export const FocusLatestList = z.array(FocusLatestPoint);
 
+export const IpcaGroupPoint = z.object({
+  reference_date: z.string(),
+  group_code: z.string(),
+  group_name: z.string(),
+  monthly_pct: z.number().nullable(),
+});
+export type IpcaGroupPoint = z.infer<typeof IpcaGroupPoint>;
+export const IpcaGroupList = z.array(IpcaGroupPoint);
+
 export class ApiError extends Error {
   constructor(
     public status: number,
@@ -132,4 +141,5 @@ export const api = {
     return request(`/backtest/forecasts${suffix}`, ForecastPoints);
   },
   focusLatest: (limit = 12) => request(`/focus/latest?limit=${limit}`, FocusLatestList),
+  ipcaGroups: () => request("/ipca/groups", IpcaGroupList),
 };

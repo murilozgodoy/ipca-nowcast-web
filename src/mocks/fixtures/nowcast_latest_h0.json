@@ -1,5 +1,5 @@
 {
-  "origin_date": "2026-10-23",
+  "origin_date": "2026-10-24",
   "target_month": "2026-10-01",
   "horizon": 0,
   "models": [
@@ -24,8 +24,8 @@
     {
       "model": "elasticnet",
       "prediction": 0.4684531350559264,
-      "pi_lower": null,
-      "pi_upper": null
+      "pi_lower": 0.0314982883111693,
+      "pi_upper": 0.8922406739974653
     },
     {
       "model": "sarima",
@@ -36,8 +36,8 @@
     {
       "model": "gradient_boosting",
       "prediction": 0.543869441894849,
-      "pi_lower": null,
-      "pi_upper": null
+      "pi_lower": 0.48691084201960383,
+      "pi_upper": 0.5968083747476833
     },
     {
       "model": "combo_mean",

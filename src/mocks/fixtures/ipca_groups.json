@@ -1,0 +1,164 @@
+[
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7170",
+    "group_name": "1.Alimentação e bebidas",
+    "monthly_pct": 0.76
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7445",
+    "group_name": "2.Habitação",
+    "monthly_pct": -0.46
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7486",
+    "group_name": "3.Artigos de residência",
+    "monthly_pct": 0.14
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7558",
+    "group_name": "4.Vestuário",
+    "monthly_pct": -0.36
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7625",
+    "group_name": "5.Transportes",
+    "monthly_pct": 0.43
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7660",
+    "group_name": "6.Saúde e cuidados pessoais",
+    "monthly_pct": 0.52
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7712",
+    "group_name": "7.Despesas pessoais",
+    "monthly_pct": 0.21
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7766",
+    "group_name": "8.Educação",
+    "monthly_pct": 0.0
+  },
+  {
+    "reference_date": "2024-08-01",
+    "group_code": "7786",
+    "group_name": "9.Comunicação",
+    "monthly_pct": 0.8
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7170",
+    "group_name": "1.Alimentação e bebidas",
+    "monthly_pct": 0.5
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7445",
+    "group_name": "2.Habitação",
+    "monthly_pct": 0.51
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7486",
+    "group_name": "3.Artigos de residência",
+    "monthly_pct": 0.45
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7558",
+    "group_name": "4.Vestuário",
+    "monthly_pct": 0.02
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7625",
+    "group_name": "5.Transportes",
+    "monthly_pct": 0.19
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7660",
+    "group_name": "6.Saúde e cuidados pessoais",
+    "monthly_pct": 0.46
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7712",
+    "group_name": "7.Despesas pessoais",
+    "monthly_pct": 0.32
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7766",
+    "group_name": "8.Educação",
+    "monthly_pct": 0.0
+  },
+  {
+    "reference_date": "2024-09-01",
+    "group_code": "7786",
+    "group_name": "9.Comunicação",
+    "monthly_pct": 0.27
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7170",
+    "group_name": "1.Alimentação e bebidas",
+    "monthly_pct": 1.06
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7445",
+    "group_name": "2.Habitação",
+    "monthly_pct": 0.3
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7486",
+    "group_name": "3.Artigos de residência",
+    "monthly_pct": 0.27
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7558",
+    "group_name": "4.Vestuário",
+    "monthly_pct": 0.06
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7625",
+    "group_name": "5.Transportes",
+    "monthly_pct": 0.37
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7660",
+    "group_name": "6.Saúde e cuidados pessoais",
+    "monthly_pct": 0.46
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7712",
+    "group_name": "7.Despesas pessoais",
+    "monthly_pct": 0.27
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7766",
+    "group_name": "8.Educação",
+    "monthly_pct": 0.0
+  },
+  {
+    "reference_date": "2024-10-01",
+    "group_code": "7786",
+    "group_name": "9.Comunicação",
+    "monthly_pct": 0.25
+  }
+]

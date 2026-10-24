@@ -14,8 +14,8 @@
     "reference_date": "2024-11-01",
     "horizon": 1,
     "prediction": 0.46647779,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.03004825,
+    "pi_upper": 0.8972814
   },
   {
     "model": "focus_median",
@@ -32,8 +32,8 @@
     "reference_date": "2024-11-01",
     "horizon": 1,
     "prediction": 0.5507555,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.49396966,
+    "pi_upper": 0.60734825
   },
   {
     "model": "historical_mean",
@@ -59,8 +59,8 @@
     "reference_date": "2024-11-01",
     "horizon": 1,
     "prediction": 0.30892441,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -3359339.93940639,
+    "pi_upper": 3359340.55725521
   },
   {
     "model": "seasonal_naive",
@@ -95,8 +95,8 @@
     "reference_date": "2024-10-01",
     "horizon": 0,
     "prediction": 0.46647779,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.03004825,
+    "pi_upper": 0.8972814
   },
   {
     "model": "elasticnet",
@@ -104,8 +104,8 @@
     "reference_date": "2024-10-01",
     "horizon": 1,
     "prediction": 0.39821497,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03783633,
+    "pi_upper": 0.83707745
   },
   {
     "model": "focus_median",
@@ -131,8 +131,8 @@
     "reference_date": "2024-10-01",
     "horizon": 0,
     "prediction": 0.5507555,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.49396966,
+    "pi_upper": 0.60734825
   },
   {
     "model": "gradient_boosting",
@@ -140,8 +140,8 @@
     "reference_date": "2024-10-01",
     "horizon": 1,
     "prediction": 0.0288562,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03128669,
+    "pi_upper": 0.08177388
   },
   {
     "model": "historical_mean",
@@ -185,8 +185,8 @@
     "reference_date": "2024-10-01",
     "horizon": 1,
     "prediction": 0.09572145,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -33418581.15208472,
+    "pi_upper": 33418581.34352762
   },
   {
     "model": "sarima",
@@ -194,8 +194,8 @@
     "reference_date": "2024-10-01",
     "horizon": 0,
     "prediction": 0.27544012,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -3046691.86333024,
+    "pi_upper": 3046692.41421047
   },
   {
     "model": "seasonal_naive",
@@ -239,8 +239,8 @@
     "reference_date": "2024-09-01",
     "horizon": 0,
     "prediction": 0.39821497,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03783633,
+    "pi_upper": 0.83707745
   },
   {
     "model": "elasticnet",
@@ -248,8 +248,8 @@
     "reference_date": "2024-09-01",
     "horizon": 1,
     "prediction": 0.40229741,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03795657,
+    "pi_upper": 0.83562637
   },
   {
     "model": "focus_median",
@@ -275,8 +275,8 @@
     "reference_date": "2024-09-01",
     "horizon": 1,
     "prediction": 0.35186196,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.29994336,
+    "pi_upper": 0.40519217
   },
   {
     "model": "gradient_boosting",
@@ -284,8 +284,8 @@
     "reference_date": "2024-09-01",
     "horizon": 0,
     "prediction": 0.0288562,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03128669,
+    "pi_upper": 0.08177388
   },
   {
     "model": "historical_mean",
@@ -329,8 +329,8 @@
     "reference_date": "2024-09-01",
     "horizon": 1,
     "prediction": 0.3744191,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -462492002.69917697,
+    "pi_upper": 462492003.44801515
   },
   {
     "model": "sarima",
@@ -338,8 +338,8 @@
     "reference_date": "2024-09-01",
     "horizon": 0,
     "prediction": 0.20469051,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -30221053.44820767,
+    "pi_upper": 30221053.85758869
   },
   {
     "model": "seasonal_naive",
@@ -383,8 +383,8 @@
     "reference_date": "2024-08-01",
     "horizon": 1,
     "prediction": 0.39570784,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.05073941,
+    "pi_upper": 0.83933781
   },
   {
     "model": "elasticnet",
@@ -392,8 +392,8 @@
     "reference_date": "2024-08-01",
     "horizon": 0,
     "prediction": 0.40229741,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.03795657,
+    "pi_upper": 0.83562637
   },
   {
     "model": "focus_median",
@@ -419,8 +419,8 @@
     "reference_date": "2024-08-01",
     "horizon": 0,
     "prediction": 0.35186196,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.29994336,
+    "pi_upper": 0.40519217
   },
   {
     "model": "gradient_boosting",
@@ -428,8 +428,8 @@
     "reference_date": "2024-08-01",
     "horizon": 1,
     "prediction": 0.04316712,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.01183753,
+    "pi_upper": 0.09255448
   },
   {
     "model": "historical_mean",
@@ -473,8 +473,8 @@
     "reference_date": "2024-08-01",
     "horizon": 0,
     "prediction": 0.39232552,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -417564543.70653945,
+    "pi_upper": 417564544.4911905
   },
   {
     "model": "sarima",
@@ -482,8 +482,8 @@
     "reference_date": "2024-08-01",
     "horizon": 1,
     "prediction": 0.53508497,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -100123267.44237931,
+    "pi_upper": 100123268.51254927
   },
   {
     "model": "seasonal_naive",
@@ -527,8 +527,8 @@
     "reference_date": "2024-07-01",
     "horizon": 0,
     "prediction": 0.39570784,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.05073941,
+    "pi_upper": 0.83933781
   },
   {
     "model": "elasticnet",
@@ -536,8 +536,8 @@
     "reference_date": "2024-07-01",
     "horizon": 1,
     "prediction": 0.48758763,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.0298523,
+    "pi_upper": 0.93149248
   },
   {
     "model": "focus_median",
@@ -563,8 +563,8 @@
     "reference_date": "2024-07-01",
     "horizon": 1,
     "prediction": 0.33621476,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.27795045,
+    "pi_upper": 0.38978322
   },
   {
     "model": "gradient_boosting",
@@ -572,8 +572,8 @@
     "reference_date": "2024-07-01",
     "horizon": 0,
     "prediction": 0.04316712,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.01183753,
+    "pi_upper": 0.09255448
   },
   {
     "model": "historical_mean",
@@ -617,8 +617,8 @@
     "reference_date": "2024-07-01",
     "horizon": 1,
     "prediction": 0.7529122,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -1214299983.9410532,
+    "pi_upper": 1214299985.4468777
   },
   {
     "model": "sarima",
@@ -626,8 +626,8 @@
     "reference_date": "2024-07-01",
     "horizon": 0,
     "prediction": 0.55119281,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -90482441.70884319,
+    "pi_upper": 90482442.8112288
   },
   {
     "model": "seasonal_naive",
@@ -671,8 +671,8 @@
     "reference_date": "2024-06-01",
     "horizon": 1,
     "prediction": 0.37070003,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.09382095,
+    "pi_upper": 0.81949885
   },
   {
     "model": "elasticnet",
@@ -680,8 +680,8 @@
     "reference_date": "2024-06-01",
     "horizon": 0,
     "prediction": 0.48758763,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.0298523,
+    "pi_upper": 0.93149248
   },
   {
     "model": "focus_median",
@@ -707,8 +707,8 @@
     "reference_date": "2024-06-01",
     "horizon": 0,
     "prediction": 0.33621476,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.27795045,
+    "pi_upper": 0.38978322
   },
   {
     "model": "gradient_boosting",
@@ -716,8 +716,8 @@
     "reference_date": "2024-06-01",
     "horizon": 1,
     "prediction": 0.34793239,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.28716001,
+    "pi_upper": 0.40179171
   },
   {
     "model": "historical_mean",
@@ -761,8 +761,8 @@
     "reference_date": "2024-06-01",
     "horizon": 0,
     "prediction": -0.36935979,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -1100462532.8634589,
+    "pi_upper": 1100462532.1247394
   },
   {
     "model": "sarima",
@@ -770,8 +770,8 @@
     "reference_date": "2024-06-01",
     "horizon": 1,
     "prediction": 0.29787316,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.36339353,
+    "pi_upper": 0.95913985
   },
   {
     "model": "seasonal_naive",
@@ -815,8 +815,8 @@
     "reference_date": "2024-05-01",
     "horizon": 0,
     "prediction": 0.37070003,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.09382095,
+    "pi_upper": 0.81949885
   },
   {
     "model": "elasticnet",
@@ -824,8 +824,8 @@
     "reference_date": "2024-05-01",
     "horizon": 1,
     "prediction": 0.63246583,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.16,
+    "pi_upper": 1.08618466
   },
   {
     "model": "focus_median",
@@ -851,8 +851,8 @@
     "reference_date": "2024-05-01",
     "horizon": 0,
     "prediction": 0.34793239,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.28716001,
+    "pi_upper": 0.40179171
   },
   {
     "model": "gradient_boosting",
@@ -860,8 +860,8 @@
     "reference_date": "2024-05-01",
     "horizon": 1,
     "prediction": 0.29495816,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.24130306,
+    "pi_upper": 0.34737891
   },
   {
     "model": "historical_mean",
@@ -905,8 +905,8 @@
     "reference_date": "2024-05-01",
     "horizon": 1,
     "prediction": 0.09334981,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -7119892.47564663,
+    "pi_upper": 7119892.66234625
   },
   {
     "model": "sarima",
@@ -914,8 +914,8 @@
     "reference_date": "2024-05-01",
     "horizon": 0,
     "prediction": 0.24087794,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.33211674,
+    "pi_upper": 0.81387261
   },
   {
     "model": "seasonal_naive",
@@ -959,8 +959,8 @@
     "reference_date": "2024-04-01",
     "horizon": 1,
     "prediction": 0.44383212,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.03349551,
+    "pi_upper": 0.88536989
   },
   {
     "model": "elasticnet",
@@ -968,8 +968,8 @@
     "reference_date": "2024-04-01",
     "horizon": 0,
     "prediction": 0.63246583,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.16,
+    "pi_upper": 1.08618466
   },
   {
     "model": "focus_median",
@@ -995,8 +995,8 @@
     "reference_date": "2024-04-01",
     "horizon": 1,
     "prediction": 0.80430048,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.75835486,
+    "pi_upper": 0.84949456
   },
   {
     "model": "gradient_boosting",
@@ -1004,8 +1004,8 @@
     "reference_date": "2024-04-01",
     "horizon": 0,
     "prediction": 0.29495816,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.24130306,
+    "pi_upper": 0.34737891
   },
   {
     "model": "historical_mean",
@@ -1049,8 +1049,8 @@
     "reference_date": "2024-04-01",
     "horizon": 0,
     "prediction": 0.34566375,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -6438696.85136662,
+    "pi_upper": 6438697.54269411
   },
   {
     "model": "sarima",
@@ -1058,8 +1058,8 @@
     "reference_date": "2024-04-01",
     "horizon": 1,
     "prediction": 0.90202972,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -839237816.5663447,
+    "pi_upper": 839237818.3704042
   },
   {
     "model": "seasonal_naive",
@@ -1103,8 +1103,8 @@
     "reference_date": "2024-03-01",
     "horizon": 0,
     "prediction": 0.44383212,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.03349551,
+    "pi_upper": 0.88536989
   },
   {
     "model": "elasticnet",
@@ -1112,8 +1112,8 @@
     "reference_date": "2024-03-01",
     "horizon": 1,
     "prediction": 0.24642936,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.12989704,
+    "pi_upper": 0.66253635
   },
   {
     "model": "focus_median",
@@ -1139,8 +1139,8 @@
     "reference_date": "2024-03-01",
     "horizon": 0,
     "prediction": 0.80430048,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.75835486,
+    "pi_upper": 0.84949456
   },
   {
     "model": "gradient_boosting",
@@ -1148,8 +1148,8 @@
     "reference_date": "2024-03-01",
     "horizon": 1,
     "prediction": 0.39821306,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.34867209,
+    "pi_upper": 0.44713521
   },
   {
     "model": "historical_mean",
@@ -1193,8 +1193,8 @@
     "reference_date": "2024-03-01",
     "horizon": 0,
     "prediction": 1.33530377,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -758596291.8295885,
+    "pi_upper": 758596294.5001961
   },
   {
     "model": "sarima",
@@ -1202,8 +1202,8 @@
     "reference_date": "2024-03-01",
     "horizon": 1,
     "prediction": 1.16757476,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.55977318,
+    "pi_upper": 1.77537635
   },
   {
     "model": "seasonal_naive",
@@ -1247,8 +1247,8 @@
     "reference_date": "2024-02-01",
     "horizon": 1,
     "prediction": -0.44531686,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.82972471,
+    "pi_upper": -0.08759945
   },
   {
     "model": "elasticnet",
@@ -1256,8 +1256,8 @@
     "reference_date": "2024-02-01",
     "horizon": 0,
     "prediction": 0.24642936,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.12989704,
+    "pi_upper": 0.66253635
   },
   {
     "model": "focus_median",
@@ -1283,8 +1283,8 @@
     "reference_date": "2024-02-01",
     "horizon": 1,
     "prediction": 0.52558657,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.47663545,
+    "pi_upper": 0.57557485
   },
   {
     "model": "gradient_boosting",
@@ -1292,8 +1292,8 @@
     "reference_date": "2024-02-01",
     "horizon": 0,
     "prediction": 0.39821306,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.34867209,
+    "pi_upper": 0.44713521
   },
   {
     "model": "historical_mean",
@@ -1337,8 +1337,8 @@
     "reference_date": "2024-02-01",
     "horizon": 0,
     "prediction": 0.88312171,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.37411213,
+    "pi_upper": 1.39213129
   },
   {
     "model": "sarima",
@@ -1346,8 +1346,8 @@
     "reference_date": "2024-02-01",
     "horizon": 1,
     "prediction": 0.78277076,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.14760391,
+    "pi_upper": 1.41793761
   },
   {
     "model": "seasonal_naive",
@@ -1391,8 +1391,8 @@
     "reference_date": "2024-01-01",
     "horizon": 0,
     "prediction": -0.44531686,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.82972471,
+    "pi_upper": -0.08759945
   },
   {
     "model": "elasticnet",
@@ -1400,8 +1400,8 @@
     "reference_date": "2024-01-01",
     "horizon": 1,
     "prediction": 0.46794179,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.07556897,
+    "pi_upper": 0.83048384
   },
   {
     "model": "focus_median",
@@ -1427,8 +1427,8 @@
     "reference_date": "2024-01-01",
     "horizon": 0,
     "prediction": 0.52558657,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.47663545,
+    "pi_upper": 0.57557485
   },
   {
     "model": "gradient_boosting",
@@ -1436,8 +1436,8 @@
     "reference_date": "2024-01-01",
     "horizon": 1,
     "prediction": 0.30492219,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.25942838,
+    "pi_upper": 0.34914419
   },
   {
     "model": "historical_mean",
@@ -1481,8 +1481,8 @@
     "reference_date": "2024-01-01",
     "horizon": 1,
     "prediction": 0.14473011,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.52799489,
+    "pi_upper": 0.81745511
   },
   {
     "model": "sarima",
@@ -1490,8 +1490,8 @@
     "reference_date": "2024-01-01",
     "horizon": 0,
     "prediction": 0.27059087,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.27952265,
+    "pi_upper": 0.82070439
   },
   {
     "model": "seasonal_naive",
@@ -1535,8 +1535,8 @@
     "reference_date": "2023-12-01",
     "horizon": 1,
     "prediction": 0.24188037,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.13317376,
+    "pi_upper": 0.59322286
   },
   {
     "model": "elasticnet",
@@ -1544,8 +1544,8 @@
     "reference_date": "2023-12-01",
     "horizon": 0,
     "prediction": 0.46794179,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.07556897,
+    "pi_upper": 0.83048384
   },
   {
     "model": "focus_median",
@@ -1571,8 +1571,8 @@
     "reference_date": "2023-12-01",
     "horizon": 0,
     "prediction": 0.30492219,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.25942838,
+    "pi_upper": 0.34914419
   },
   {
     "model": "gradient_boosting",
@@ -1580,8 +1580,8 @@
     "reference_date": "2023-12-01",
     "horizon": 1,
     "prediction": 0.21653359,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.1748701,
+    "pi_upper": 0.25891608
   },
   {
     "model": "historical_mean",
@@ -1625,8 +1625,8 @@
     "reference_date": "2023-12-01",
     "horizon": 0,
     "prediction": 0.38261238,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.17869117,
+    "pi_upper": 0.94391592
   },
   {
     "model": "sarima",
@@ -1634,8 +1634,8 @@
     "reference_date": "2023-12-01",
     "horizon": 1,
     "prediction": 0.36955795,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.32064636,
+    "pi_upper": 1.05976225
   },
   {
     "model": "seasonal_naive",
@@ -1679,8 +1679,8 @@
     "reference_date": "2023-11-01",
     "horizon": 0,
     "prediction": 0.24188037,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.13317376,
+    "pi_upper": 0.59322286
   },
   {
     "model": "elasticnet",
@@ -1688,8 +1688,8 @@
     "reference_date": "2023-11-01",
     "horizon": 1,
     "prediction": 0.11986315,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.27390897,
+    "pi_upper": 0.51170629
   },
   {
     "model": "focus_median",
@@ -1715,8 +1715,8 @@
     "reference_date": "2023-11-01",
     "horizon": 0,
     "prediction": 0.21653359,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.1748701,
+    "pi_upper": 0.25891608
   },
   {
     "model": "gradient_boosting",
@@ -1724,8 +1724,8 @@
     "reference_date": "2023-11-01",
     "horizon": 1,
     "prediction": 0.2969759,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": 0.23445658,
+    "pi_upper": 0.34175387
   },
   {
     "model": "historical_mean",
@@ -1769,8 +1769,8 @@
     "reference_date": "2023-11-01",
     "horizon": 0,
     "prediction": 0.26223842,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.31290489,
+    "pi_upper": 0.83738172
   },
   {
     "model": "sarima",
@@ -1778,8 +1778,8 @@
     "reference_date": "2023-11-01",
     "horizon": 1,
     "prediction": 0.57734678,
-    "pi_lower": null,
-    "pi_upper": null
+    "pi_lower": -0.09852434,
+    "pi_upper": 1.25321789
   },
   {
     "model": "seasonal_naive",

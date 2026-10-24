@@ -3,6 +3,7 @@ import { HomePage } from "@/features/home/HomePage";
 import { InflationPage } from "@/features/inflation/InflationPage";
 import { ModelsPage } from "@/features/models/ModelsPage";
 import { SeriesPage } from "@/features/series/SeriesPage";
+import { TrackingPage } from "@/features/tracking/TrackingPage";
 import { MethodologyPage } from "@/features/static/MethodologyPage";
 import { AboutPage } from "@/features/static/AboutPage";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -11,6 +12,7 @@ const NAV = [
   { to: "/", label: "Visão geral", end: true },
   { to: "/inflacao", label: "Inflação", end: false },
   { to: "/modelos", label: "Modelos", end: false },
+  { to: "/acompanhamento", label: "Acompanhamento", end: false },
   { to: "/series", label: "Séries", end: false },
   { to: "/metodologia", label: "Metodologia", end: false },
   { to: "/sobre", label: "Sobre", end: false },
@@ -48,6 +50,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/inflacao" element={<InflationPage />} />
           <Route path="/modelos" element={<ModelsPage />} />
+          <Route path="/acompanhamento" element={<TrackingPage />} />
           <Route path="/series" element={<SeriesPage />} />
           <Route path="/metodologia" element={<MethodologyPage />} />
           <Route path="/sobre" element={<AboutPage />} />

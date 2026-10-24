@@ -3,15 +3,17 @@ import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
 import { useBacktestForecasts, useSeriesDetail } from "@/lib/hooks";
 import { formatMonth, formatPercent, modelLabel } from "@/lib/format";
 import {
+  Area,
   CartesianGrid,
+  ComposedChart,
   Legend,
   Line,
-  LineChart,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
+import { IpcaGroupsCard } from "./IpcaGroupsCard";
 
 const MODELS = [
   "random_walk",
@@ -36,6 +38,7 @@ const COLORS: Record<string, string> = {
 export function InflationPage() {
   const [horizon, setHorizon] = useState(0);
   const [selected, setSelected] = useState<string[]>(["combo_mean", "focus_median"]);
+  const [bandModel, setBandModel] = useState<string>("sarima");
   const forecasts = useBacktestForecasts(undefined, horizon);
   const ipca = useSeriesDetail("sgs.433");
 
@@ -48,12 +51,26 @@ export function InflationPage() {
     const realizedByMonth: Record<string, number | null> = Object.fromEntries(
       ipca.data.observations.map((o) => [o.reference_date, o.value]),
     );
+    const bandByMonth: Record<string, { lo: number | null; hi: number | null }> = {};
+    for (const p of forecasts.data) {
+      if (p.model === bandModel) {
+        bandByMonth[p.reference_date] = {
+          lo: p.pi_lower ?? null,
+          hi: p.pi_upper ?? null,
+        };
+      }
+    }
     return index
       .map((month) => {
         const row: Record<string, number | string | null> = {
           month,
           label: formatMonth(month),
           realized: realizedByMonth[month] ?? null,
+          band_lo: bandByMonth[month]?.lo ?? null,
+          band_width:
+            bandByMonth[month]?.hi !== null && bandByMonth[month]?.lo !== null
+              ? (bandByMonth[month]!.hi as number) - (bandByMonth[month]!.lo as number)
+              : null,
         };
         for (const model of MODELS) {
           row[model] = null;
@@ -68,30 +85,45 @@ export function InflationPage() {
         }
         return row;
       });
-  }, [forecasts.data, ipca.data]);
+  }, [forecasts.data, ipca.data, bandModel]);
 
   return (
     <div className="flex flex-col gap-6">
       <header>
         <h1 className="text-2xl font-semibold">Inflação</h1>
         <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          IPCA realizado versus previsões dos modelos e do Focus.
+          IPCA realizado versus previsões dos modelos e do Focus, com intervalo de 80% em volta do
+          modelo selecionado.
         </p>
       </header>
       <Card
         title="Previsões vs. realizado"
         action={
-          <select
-            value={horizon}
-            onChange={(e) => setHorizon(Number(e.target.value))}
-            className="rounded border border-neutral-300 bg-white p-1 text-sm dark:border-neutral-700 dark:bg-neutral-900"
-            aria-label="Horizonte"
-          >
-            <option value={0}>Horizonte 0 (nowcast)</option>
-            <option value={1}>Horizonte 1</option>
-            <option value={2}>Horizonte 2</option>
-            <option value={3}>Horizonte 3</option>
-          </select>
+          <div className="flex flex-wrap gap-2 text-sm">
+            <select
+              value={horizon}
+              onChange={(e) => setHorizon(Number(e.target.value))}
+              className="rounded border border-neutral-300 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-900"
+              aria-label="Horizonte"
+            >
+              <option value={0}>Horizonte 0 (nowcast)</option>
+              <option value={1}>Horizonte 1</option>
+              <option value={2}>Horizonte 2</option>
+              <option value={3}>Horizonte 3</option>
+            </select>
+            <select
+              value={bandModel}
+              onChange={(e) => setBandModel(e.target.value)}
+              className="rounded border border-neutral-300 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-900"
+              aria-label="Modelo com intervalo"
+            >
+              {["sarima", "elasticnet", "gradient_boosting"].map((m) => (
+                <option key={m} value={m}>
+                  Intervalo: {modelLabel(m)}
+                </option>
+              ))}
+            </select>
+          </div>
         }
       >
         {(forecasts.isLoading || ipca.isLoading) && <LoadingBar />}
@@ -122,12 +154,32 @@ export function InflationPage() {
             </div>
             <div className="h-80 w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={chartData}>
+                <ComposedChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
                   <XAxis dataKey="label" minTickGap={16} />
                   <YAxis unit="%" />
                   <Tooltip formatter={(v: number) => formatPercent(v)} />
                   <Legend />
+                  <Area
+                    type="monotone"
+                    dataKey="band_lo"
+                    stackId="band"
+                    stroke="none"
+                    fill="transparent"
+                    name={`PI 80% (${modelLabel(bandModel)})`}
+                    isAnimationActive={false}
+                    legendType="none"
+                  />
+                  <Area
+                    type="monotone"
+                    dataKey="band_width"
+                    stackId="band"
+                    stroke="none"
+                    fill={COLORS[bandModel] ?? "#8884d8"}
+                    fillOpacity={0.15}
+                    name={`PI 80% (${modelLabel(bandModel)})`}
+                    isAnimationActive={false}
+                  />
                   <Line
                     type="monotone"
                     dataKey="realized"
@@ -150,12 +202,13 @@ export function InflationPage() {
                       isAnimationActive={false}
                     />
                   ))}
-                </LineChart>
+                </ComposedChart>
               </ResponsiveContainer>
             </div>
           </>
         )}
       </Card>
+      <IpcaGroupsCard />
     </div>
   );
 }

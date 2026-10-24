@@ -8,6 +8,7 @@ import nowcastH1 from "./fixtures/nowcast_latest_h1.json";
 import backtestMetrics from "./fixtures/backtest_metrics.json";
 import backtestForecasts from "./fixtures/backtest_forecasts.json";
 import focusLatest from "./fixtures/focus_latest.json";
+import ipcaGroups from "./fixtures/ipca_groups.json";
 
 const seriesMap: Record<string, unknown> = {
   "sgs.433": seriesSgs433,
@@ -53,4 +54,5 @@ export const handlers = [
     return HttpResponse.json(filtered.slice(0, limit));
   }),
   http.get(`${API_URL}/focus/latest`, () => HttpResponse.json(focusLatest)),
+  http.get(`${API_URL}/ipca/groups`, () => HttpResponse.json(ipcaGroups)),
 ];

@@ -42,3 +42,6 @@ export const useFocusLatest = (limit = 12) =>
     queryKey: ["focus-latest", limit] as const,
     queryFn: () => api.focusLatest(limit),
   });
+
+export const useIpcaGroups = () =>
+  useQuery({ queryKey: ["ipca-groups"] as const, queryFn: () => api.ipcaGroups() });
