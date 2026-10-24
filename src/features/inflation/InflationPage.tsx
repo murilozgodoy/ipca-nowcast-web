@@ -3,11 +3,10 @@ import { Card, EmptyState, ErrorBanner, LoadingBar } from "@/components/Card";
 import { useBacktestForecasts, useSeriesDetail } from "@/lib/hooks";
 import { formatMonth, formatPercent, modelLabel } from "@/lib/format";
 import {
-  Area,
   CartesianGrid,
-  ComposedChart,
   Legend,
   Line,
+  LineChart,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -66,11 +65,8 @@ export function InflationPage() {
           month,
           label: formatMonth(month),
           realized: realizedByMonth[month] ?? null,
-          band_lo: bandByMonth[month]?.lo ?? null,
-          band_width:
-            bandByMonth[month]?.hi !== null && bandByMonth[month]?.lo !== null
-              ? (bandByMonth[month]!.hi as number) - (bandByMonth[month]!.lo as number)
-              : null,
+          pi_lower: bandByMonth[month]?.lo ?? null,
+          pi_upper: bandByMonth[month]?.hi ?? null,
         };
         for (const model of MODELS) {
           row[model] = null;
@@ -154,32 +150,12 @@ export function InflationPage() {
             </div>
             <div className="h-80 w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <ComposedChart data={chartData}>
+                <LineChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
                   <XAxis dataKey="label" minTickGap={16} />
                   <YAxis unit="%" />
                   <Tooltip formatter={(v: number) => formatPercent(v)} />
                   <Legend />
-                  <Area
-                    type="monotone"
-                    dataKey="band_lo"
-                    stackId="band"
-                    stroke="none"
-                    fill="transparent"
-                    name={`PI 80% (${modelLabel(bandModel)})`}
-                    isAnimationActive={false}
-                    legendType="none"
-                  />
-                  <Area
-                    type="monotone"
-                    dataKey="band_width"
-                    stackId="band"
-                    stroke="none"
-                    fill={COLORS[bandModel] ?? "#8884d8"}
-                    fillOpacity={0.15}
-                    name={`PI 80% (${modelLabel(bandModel)})`}
-                    isAnimationActive={false}
-                  />
                   <Line
                     type="monotone"
                     dataKey="realized"
@@ -202,7 +178,29 @@ export function InflationPage() {
                       isAnimationActive={false}
                     />
                   ))}
-                </ComposedChart>
+                  <Line
+                    type="monotone"
+                    dataKey="pi_lower"
+                    name={`PI 80% inf. (${modelLabel(bandModel)})`}
+                    stroke={COLORS[bandModel] ?? "#8884d8"}
+                    strokeDasharray="4 4"
+                    strokeOpacity={0.5}
+                    dot={false}
+                    connectNulls
+                    isAnimationActive={false}
+                  />
+                  <Line
+                    type="monotone"
+                    dataKey="pi_upper"
+                    name={`PI 80% sup. (${modelLabel(bandModel)})`}
+                    stroke={COLORS[bandModel] ?? "#8884d8"}
+                    strokeDasharray="4 4"
+                    strokeOpacity={0.5}
+                    dot={false}
+                    connectNulls
+                    isAnimationActive={false}
+                  />
+                </LineChart>
               </ResponsiveContainer>
             </div>
           </>
