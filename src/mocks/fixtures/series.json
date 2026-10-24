@@ -1,5 +1,14 @@
 [
   {
+    "code": "anp.gasolina",
+    "name": "ANP — preço médio da gasolina (R$/litro)",
+    "source": "ANP",
+    "unit": "BRL_per_litre",
+    "frequency": "monthly",
+    "publication_lag_days": 10,
+    "is_target": false
+  },
+  {
     "code": "sgs.1",
     "name": "Dólar — PTAX venda",
     "source": "BCB_SGS",

@@ -1,440 +1,584 @@
 [
   {
     "model": "combo_mean",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.44205257,
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.59902777,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.46647779,
-    "pi_lower": 0.03004825,
-    "pi_upper": 0.8972814
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.50484103,
+    "pi_lower": 0.16821879,
+    "pi_upper": 0.81229515
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.41,
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.47,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.5507555,
-    "pi_lower": 0.49396966,
-    "pi_upper": 0.60734825
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.78789887,
+    "pi_lower": 0.6555428,
+    "pi_upper": 0.92259537
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.36166667,
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.37416667,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.44,
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.82,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "sarima",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.30892441,
-    "pi_lower": -3359339.93940639,
-    "pi_upper": 3359340.55725521
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.5043434,
+    "pi_lower": 0.10519263,
+    "pi_upper": 0.90349418
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-11-01",
-    "horizon": 1,
-    "prediction": 0.28,
+    "origin_date": "2026-10-15",
+    "reference_date": "2027-01-01",
+    "horizon": 3,
+    "prediction": 0.33,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.17426421,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.20509397,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.43089114,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.6608668,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.46647779,
-    "pi_lower": 0.03004825,
-    "pi_upper": 0.8972814
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.50484103,
+    "pi_lower": 0.16821879,
+    "pi_upper": 0.81229515
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.39821497,
-    "pi_lower": -0.03783633,
-    "pi_upper": 0.83707745
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": -0.05165398,
+    "pi_lower": -0.38028407,
+    "pi_upper": 0.2518993
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": -0.02,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.55,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.44,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.56,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.5507555,
-    "pi_lower": 0.49396966,
-    "pi_upper": 0.60734825
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.10625928,
+    "pi_lower": -0.02648908,
+    "pi_upper": 0.24024728
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.0288562,
-    "pi_lower": -0.03128669,
-    "pi_upper": 0.08177388
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.78789887,
+    "pi_lower": 0.6555428,
+    "pi_upper": 0.92259537
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.34666667,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.37416667,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.36166667,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.34583333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.44,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": -0.32,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": -0.02,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.82,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "sarima",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.09572145,
-    "pi_lower": -33418581.15208472,
-    "pi_upper": 33418581.34352762
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.56067662,
+    "pi_lower": 0.16293769,
+    "pi_upper": 0.95841555
   },
   {
     "model": "sarima",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.27544012,
-    "pi_lower": -3046691.86333024,
-    "pi_upper": 3046692.41421047
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.68986049,
+    "pi_lower": 0.29599463,
+    "pi_upper": 1.08372635
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2024-10-15",
-    "reference_date": "2024-10-01",
-    "horizon": 0,
-    "prediction": 0.24,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-12-01",
+    "horizon": 2,
+    "prediction": 0.33,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-10-01",
-    "horizon": 1,
-    "prediction": 0.24,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-12-01",
+    "horizon": 3,
+    "prediction": 0.33,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.21058723,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
+    "horizon": 1,
+    "prediction": 0.61304545,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
-    "horizon": 1,
-    "prediction": 0.37619282,
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.18579371,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.13328273,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.39821497,
-    "pi_lower": -0.03783633,
-    "pi_upper": 0.83707745
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.01937441,
+    "pi_lower": -0.30641304,
+    "pi_upper": 0.32439851
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
     "horizon": 1,
-    "prediction": 0.40229741,
-    "pi_lower": -0.03795657,
-    "pi_upper": 0.83562637
+    "prediction": 0.50484103,
+    "pi_lower": 0.16821879,
+    "pi_upper": 0.81229515
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": -0.05165398,
+    "pi_lower": -0.38028407,
+    "pi_upper": 0.2518993
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
     "horizon": 1,
-    "prediction": 0.38,
+    "prediction": 0.34,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": -0.02,
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.35,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
-    "horizon": 1,
-    "prediction": 0.35186196,
-    "pi_lower": 0.29994336,
-    "pi_upper": 0.40519217
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.11481818,
+    "pi_lower": -0.02571345,
+    "pi_upper": 0.24129503
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.0288562,
-    "pi_lower": -0.03128669,
-    "pi_upper": 0.08177388
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
+    "horizon": 1,
+    "prediction": 0.78789887,
+    "pi_lower": 0.6555428,
+    "pi_upper": 0.92259537
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.10625928,
+    "pi_lower": -0.02648908,
+    "pi_upper": 0.24024728
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
-    "horizon": 1,
-    "prediction": 0.3675,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.34583333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.34666667,
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
+    "horizon": 1,
+    "prediction": 0.37416667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.36333333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": -0.02,
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": -0.32,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
     "horizon": 1,
-    "prediction": 0.38,
+    "prediction": 0.82,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.07,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "sarima",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
-    "horizon": 1,
-    "prediction": 0.3744191,
-    "pi_lower": -462492002.69917697,
-    "pi_upper": 462492003.44801515
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.42318855,
+    "pi_lower": 0.02795422,
+    "pi_upper": 0.81842287
   },
   {
     "model": "sarima",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.20469051,
-    "pi_lower": -30221053.44820767,
-    "pi_upper": 30221053.85758869
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.3452429,
+    "pi_lower": -0.04687391,
+    "pi_upper": 0.7373597
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
+    "horizon": 1,
+    "prediction": 0.54639646,
+    "pi_lower": 0.16588578,
+    "pi_upper": 0.92690713
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2024-09-15",
-    "reference_date": "2024-09-01",
-    "horizon": 0,
-    "prediction": 0.26,
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-11-01",
+    "horizon": 3,
+    "prediction": 0.18,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-09-01",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-11-01",
+    "horizon": 2,
+    "prediction": 0.18,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-11-01",
     "horizon": 1,
-    "prediction": 0.26,
+    "prediction": 0.18,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
-    "horizon": 1,
-    "prediction": 0.32465331,
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.27644554,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "combo_mean",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.19386443,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
     "horizon": 0,
-    "prediction": 0.38216163,
+    "prediction": 0.64681904,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
+    "horizon": 1,
+    "prediction": 0.12797426,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
     "horizon": 1,
-    "prediction": 0.39570784,
-    "pi_lower": -0.05073941,
-    "pi_upper": 0.83933781
+    "prediction": -0.05165398,
+    "pi_lower": -0.38028407,
+    "pi_upper": 0.2518993
   },
   {
     "model": "elasticnet",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.01937441,
+    "pi_lower": -0.30641304,
+    "pi_upper": 0.32439851
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.13986318,
+    "pi_lower": -0.18567947,
+    "pi_upper": 0.44550393
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
     "horizon": 0,
-    "prediction": 0.40229741,
-    "pi_lower": -0.03795657,
-    "pi_upper": 0.83562637
+    "prediction": 0.50484103,
+    "pi_lower": 0.16821879,
+    "pi_upper": 0.81229515
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
-    "horizon": 1,
-    "prediction": 0.21,
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.33,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.3,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
     "horizon": 0,
-    "prediction": 0.38,
+    "prediction": 0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
+    "horizon": 1,
+    "prediction": 0.3369,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
-    "horizon": 0,
-    "prediction": 0.35186196,
-    "pi_lower": 0.29994336,
-    "pi_upper": 0.40519217
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.21461442,
+    "pi_lower": 0.08104107,
+    "pi_upper": 0.34287674
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
     "horizon": 1,
-    "prediction": 0.04316712,
-    "pi_lower": -0.01183753,
-    "pi_upper": 0.09255448
+    "prediction": 0.10625928,
+    "pi_lower": -0.02648908,
+    "pi_upper": 0.24024728
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
+    "horizon": 0,
+    "prediction": 0.78789887,
+    "pi_lower": 0.6555428,
+    "pi_upper": 0.92259537
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.11481818,
+    "pi_lower": -0.02571345,
+    "pi_upper": 0.24129503
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
     "horizon": 1,
     "prediction": 0.34583333,
     "pi_lower": null,
@@ -442,1160 +586,3194 @@
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
     "horizon": 0,
-    "prediction": 0.3675,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
-    "horizon": 0,
-    "prediction": 0.38,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
-    "horizon": 1,
-    "prediction": 0.21,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
-    "horizon": 0,
-    "prediction": 0.39232552,
-    "pi_lower": -417564543.70653945,
-    "pi_upper": 417564544.4911905
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
-    "horizon": 1,
-    "prediction": 0.53508497,
-    "pi_lower": -100123267.44237931,
-    "pi_upper": 100123268.51254927
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-08-15",
-    "reference_date": "2024-08-01",
-    "horizon": 0,
-    "prediction": 0.23,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-08-01",
-    "horizon": 1,
-    "prediction": 0.23,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.52557153,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.33002259,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.39570784,
-    "pi_lower": -0.05073941,
-    "pi_upper": 0.83933781
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.48758763,
-    "pi_lower": 0.0298523,
-    "pi_upper": 0.93149248
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.21,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.46,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.33621476,
-    "pi_lower": 0.27795045,
-    "pi_upper": 0.38978322
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.04316712,
-    "pi_lower": -0.01183753,
-    "pi_upper": 0.09255448
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.32166667,
+    "prediction": 0.37416667,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "historical_mean",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.37916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.07,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
+    "horizon": 1,
+    "prediction": -0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
+    "horizon": 0,
+    "prediction": 0.82,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.44740071,
+    "pi_lower": 0.05766627,
+    "pi_upper": 0.83713515
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
+    "horizon": 0,
+    "prediction": 0.64771721,
+    "pi_lower": 0.30236493,
+    "pi_upper": 0.99306948
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.47485903,
+    "pi_lower": 0.07948946,
+    "pi_upper": 0.8702286
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
+    "horizon": 1,
+    "prediction": 0.32931749,
+    "pi_lower": -0.04874031,
+    "pi_upper": 0.7073753
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-10-01",
+    "horizon": 1,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-10-01",
+    "horizon": 3,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-10-15",
+    "reference_date": "2026-10-01",
+    "horizon": 0,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-10-01",
+    "horizon": 2,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.15039106,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.46051955,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.2380496,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": 0.06296765,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.01937441,
+    "pi_lower": -0.30641304,
+    "pi_upper": 0.32439851
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": -0.05165398,
+    "pi_lower": -0.38028407,
+    "pi_upper": 0.2518993
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.13986318,
+    "pi_lower": -0.18567947,
+    "pi_upper": 0.44550393
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.3848939,
+    "pi_lower": 0.05705074,
+    "pi_upper": 0.69180661
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.49,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.5088,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": 0.5,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.58721334,
+    "pi_lower": 0.44505191,
+    "pi_upper": 0.72308681
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.11481818,
+    "pi_lower": -0.02571345,
+    "pi_upper": 0.24129503
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": 0.10625928,
+    "pi_lower": -0.02648908,
+    "pi_upper": 0.24024728
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.21461442,
+    "pi_lower": 0.08104107,
+    "pi_upper": 0.34287674
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
     "horizon": 0,
     "prediction": 0.34583333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
+    "model": "historical_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.37916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.38583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
     "model": "random_walk",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": -0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.58,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.07,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.31698061,
+    "pi_lower": -0.05901701,
+    "pi_upper": 0.69297823
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": 0.13429764,
+    "pi_lower": -0.20706074,
+    "pi_upper": 0.47565602
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.35967121,
+    "pi_lower": -0.03014883,
+    "pi_upper": 0.74949125
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.40945141,
+    "pi_lower": 0.01327105,
+    "pi_upper": 0.80563178
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-09-01",
+    "horizon": 1,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-09-15",
+    "reference_date": "2026-09-01",
+    "horizon": 0,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-09-01",
+    "horizon": 3,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-09-01",
+    "horizon": 2,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.39508469,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.16410729,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.45990115,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.06808032,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.13986318,
+    "pi_lower": -0.18567947,
+    "pi_upper": 0.44550393
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.3848939,
+    "pi_lower": 0.05705074,
+    "pi_upper": 0.69180661
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.01937441,
+    "pi_lower": -0.30641304,
+    "pi_upper": 0.32439851
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.55420911,
+    "pi_lower": 0.22855551,
+    "pi_upper": 0.86239906
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": -0.17,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": -0.1,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.0886,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.03,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.21461442,
+    "pi_lower": 0.08104107,
+    "pi_upper": 0.34287674
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.58721334,
+    "pi_lower": 0.44505191,
+    "pi_upper": 0.72308681
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.63019869,
+    "pi_lower": 0.49306027,
+    "pi_upper": 0.75640852
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.11481818,
+    "pi_lower": -0.02571345,
+    "pi_upper": 0.24129503
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.37916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.38583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.35916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.07,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.58,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.67,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": 0.21314683,
+    "pi_lower": -0.17733581,
+    "pi_upper": 0.60362946
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": 0.19529565,
+    "pi_lower": -0.2015167,
+    "pi_upper": 0.592108
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": 0.13784427,
+    "pi_lower": -0.23823597,
+    "pi_upper": 0.51392452
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": 0.07004837,
+    "pi_lower": -0.27016606,
+    "pi_upper": 0.41026281
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-08-01",
+    "horizon": 3,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-08-01",
+    "horizon": 1,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-08-01",
+    "horizon": 2,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-08-15",
+    "reference_date": "2026-08-01",
+    "horizon": 0,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.49625252,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.57498711,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.18890766,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.43436621,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.13986318,
+    "pi_lower": -0.18567947,
+    "pi_upper": 0.44550393
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.55420911,
+    "pi_lower": 0.22855551,
+    "pi_upper": 0.86239906
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.3848939,
+    "pi_lower": 0.05705074,
+    "pi_upper": 0.69180661
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.50897426,
+    "pi_lower": 0.1821675,
+    "pi_upper": 0.81762643
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.31,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.2356,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.2703,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.25,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.63019869,
+    "pi_lower": 0.49306027,
+    "pi_upper": 0.75640852
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.58721334,
+    "pi_lower": 0.44505191,
+    "pi_upper": 0.72308681
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.21461442,
+    "pi_lower": 0.08104107,
+    "pi_upper": 0.34287674
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.92627858,
+    "pi_lower": 0.79082071,
+    "pi_upper": 1.05066711
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.33916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.38583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.37916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.35916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.67,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.58,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.88,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.28970849,
+    "pi_lower": -0.10768811,
+    "pi_upper": 0.68710508
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.33099138,
+    "pi_lower": -0.04552114,
+    "pi_upper": 0.7075039
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.30434975,
+    "pi_lower": -0.08678979,
+    "pi_upper": 0.69548928
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.21224538,
+    "pi_lower": -0.12837509,
+    "pi_upper": 0.55286585
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-07-01",
+    "horizon": 2,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-07-01",
+    "horizon": 1,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-07-01",
+    "horizon": 3,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-07-15",
+    "reference_date": "2026-07-01",
+    "horizon": 0,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.46209816,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.59553767,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.49314875,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.51934397,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.50897426,
+    "pi_lower": 0.1821675,
+    "pi_upper": 0.81762643
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.3848939,
+    "pi_lower": 0.05705074,
+    "pi_upper": 0.69180661
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.55420911,
+    "pi_lower": 0.22855551,
+    "pi_upper": 0.86239906
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.38098372,
+    "pi_lower": 0.05067304,
+    "pi_upper": 0.68114647
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.27,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.3,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.28,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.81154429,
+    "pi_lower": 0.67969591,
+    "pi_upper": 0.94305795
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.58721334,
+    "pi_lower": 0.44505191,
+    "pi_upper": 0.72308681
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.63019869,
+    "pi_lower": 0.49306027,
+    "pi_upper": 0.75640852
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.92627858,
+    "pi_lower": 0.79082071,
+    "pi_upper": 1.05066711
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.33916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.38583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.3125,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.35916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.67,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.7,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.58,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.88,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.41418723,
+    "pi_lower": 0.07338424,
+    "pi_upper": 0.75499022
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.37362412,
+    "pi_lower": -0.00356945,
+    "pi_upper": 0.75081768
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.35136017,
+    "pi_lower": -0.04033743,
+    "pi_upper": 0.74305777
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.28691826,
+    "pi_lower": -0.11016836,
+    "pi_upper": 0.68400487
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-06-01",
+    "horizon": 1,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-06-01",
+    "horizon": 2,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-06-01",
+    "horizon": 3,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-06-15",
+    "reference_date": "2026-06-01",
+    "horizon": 0,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.55923518,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.51704749,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.63114495,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.46076137,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.55420911,
+    "pi_lower": 0.22855551,
+    "pi_upper": 0.86239906
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.38098372,
+    "pi_lower": 0.05067304,
+    "pi_upper": 0.68114647
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.50897426,
+    "pi_lower": 0.1821675,
+    "pi_upper": 0.81762643
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.35539518,
+    "pi_lower": 0.02978526,
+    "pi_upper": 0.6551263
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.41,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.2939,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.68092413,
+    "pi_lower": 0.54192448,
+    "pi_upper": 0.81302361
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.92627858,
+    "pi_lower": 0.79082071,
+    "pi_upper": 1.05066711
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.81154429,
+    "pi_lower": 0.67969591,
+    "pi_upper": 0.94305795
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.63019869,
+    "pi_lower": 0.49306027,
+    "pi_upper": 0.75640852
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.3125,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.33916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.35916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.88,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.67,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.7,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.35861446,
+    "pi_lower": -0.03259794,
+    "pi_upper": 0.74982687
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.49329772,
+    "pi_lower": 0.15184659,
+    "pi_upper": 0.83474885
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.45818202,
+    "pi_lower": 0.08043614,
+    "pi_upper": 0.83592789
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.34596479,
+    "pi_lower": -0.05188625,
+    "pi_upper": 0.74381584
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-05-01",
+    "horizon": 2,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-05-01",
+    "horizon": 3,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-05-01",
+    "horizon": 1,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-05-15",
+    "reference_date": "2026-05-01",
+    "horizon": 0,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.54496466,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.48632565,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.67698151,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.31641108,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.35539518,
+    "pi_lower": 0.02978526,
+    "pi_upper": 0.6551263
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.50897426,
+    "pi_lower": 0.1821675,
+    "pi_upper": 0.81762643
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.38098372,
+    "pi_lower": 0.05067304,
+    "pi_upper": 0.68114647
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.25933696,
+    "pi_lower": -0.06638276,
+    "pi_upper": 0.56080855
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.4,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.41,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.54,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.4,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.81154429,
+    "pi_lower": 0.67969591,
+    "pi_upper": 0.94305795
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.92627858,
+    "pi_lower": 0.79082071,
+    "pi_upper": 1.05066711
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.27211366,
+    "pi_lower": 0.13833478,
+    "pi_upper": 0.40064829
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.68092413,
+    "pi_lower": 0.54192448,
+    "pi_upper": 0.81302361
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.34916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.33916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.3125,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.7,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.88,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.42265765,
+    "pi_lower": 0.03075855,
+    "pi_upper": 0.81455676
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.5956917,
+    "pi_lower": 0.25354283,
+    "pi_upper": 0.93784056
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.41778262,
+    "pi_lower": 0.01909469,
+    "pi_upper": 0.81647056
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.44236599,
+    "pi_lower": 0.06525958,
+    "pi_upper": 0.8194724
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-04-01",
+    "horizon": 2,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-04-01",
+    "horizon": 1,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-04-01",
+    "horizon": 3,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-04-15",
+    "reference_date": "2026-04-01",
+    "horizon": 0,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.58213893,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.34869269,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.5197958,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.43046768,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.25933696,
+    "pi_lower": -0.06638276,
+    "pi_upper": 0.56080855
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.38098372,
+    "pi_lower": 0.05067304,
+    "pi_upper": 0.68114647
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.35539518,
+    "pi_lower": 0.02978526,
+    "pi_upper": 0.6551263
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.20097238,
+    "pi_lower": -0.12525404,
+    "pi_upper": 0.50344891
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.35,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.32,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.35,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.34,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.54246769,
+    "pi_lower": 0.41573772,
+    "pi_upper": 0.66895955
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.81154429,
+    "pi_lower": 0.67969591,
+    "pi_upper": 0.94305795
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.27211366,
+    "pi_lower": 0.13833478,
+    "pi_upper": 0.40064829
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.68092413,
+    "pi_lower": 0.54192448,
+    "pi_upper": 0.81302361
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.34916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.3125,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.365,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.7,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.18,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.55388878,
+    "pi_lower": 0.2120652,
+    "pi_upper": 0.89571237
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.51462745,
+    "pi_lower": 0.12193671,
+    "pi_upper": 0.90731818
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.52306809,
+    "pi_lower": 0.14537068,
+    "pi_upper": 0.9007655
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.54796295,
+    "pi_lower": 0.14908177,
+    "pi_upper": 0.94684414
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-03-01",
+    "horizon": 1,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-03-01",
+    "horizon": 2,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-03-15",
+    "reference_date": "2026-03-01",
+    "horizon": 0,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-03-01",
+    "horizon": 3,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.40037714,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.38404587,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.47202444,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.55689884,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.20097238,
+    "pi_lower": -0.12525404,
+    "pi_upper": 0.50344891
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.25933696,
+    "pi_lower": -0.06638276,
+    "pi_upper": 0.56080855
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.14195647,
+    "pi_lower": -0.18585567,
+    "pi_upper": 0.44613523
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.35539518,
+    "pi_lower": 0.02978526,
+    "pi_upper": 0.6551263
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.54,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.53,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.5,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.68092413,
+    "pi_lower": 0.54192448,
+    "pi_upper": 0.81302361
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.54246769,
+    "pi_lower": 0.41573772,
+    "pi_upper": 0.66895955
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.27211366,
+    "pi_lower": 0.13833478,
+    "pi_upper": 0.40064829
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.36809374,
+    "pi_lower": 0.2359631,
+    "pi_upper": 0.49411926
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.365,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.36333333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.34916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.3825,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.18,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 0.67263326,
+    "pi_lower": 0.27954912,
+    "pi_upper": 1.06571739
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 0.63437722,
+    "pi_lower": 0.29197068,
+    "pi_upper": 0.97678376
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 0.62068699,
+    "pi_lower": 0.24225919,
+    "pi_upper": 0.99911479
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 0.69108121,
+    "pi_lower": 0.29211227,
+    "pi_upper": 1.09005015
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-02-01",
+    "horizon": 1,
+    "prediction": 1.31,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-02-01",
+    "horizon": 2,
+    "prediction": 1.31,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-02-15",
+    "reference_date": "2026-02-01",
+    "horizon": 0,
+    "prediction": 1.31,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-02-01",
+    "horizon": 3,
+    "prediction": 1.31,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.30588606,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.3734273,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.27962567,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.61165144,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.25933696,
+    "pi_lower": -0.06638276,
+    "pi_upper": 0.56080855
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.14195647,
+    "pi_lower": -0.18585567,
+    "pi_upper": 0.44613523
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.20097238,
+    "pi_lower": -0.12525404,
+    "pi_upper": 0.50344891
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.36346796,
+    "pi_lower": 0.03685852,
+    "pi_upper": 0.67127351
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.43,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.35,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.3857,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.45,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.36809374,
+    "pi_lower": 0.2359631,
+    "pi_upper": 0.49411926
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.27211366,
+    "pi_lower": 0.13833478,
+    "pi_upper": 0.40064829
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.54246769,
+    "pi_lower": 0.41573772,
+    "pi_upper": 0.66895955
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.97714659,
+    "pi_lower": 0.84663363,
+    "pi_upper": 1.09548457
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.3825,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.365,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.42166667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.34916667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.18,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.33,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.30742639,
+    "pi_lower": -0.03558982,
+    "pi_upper": 0.6504426
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.40760797,
+    "pi_lower": 0.0144642,
+    "pi_upper": 0.80075173
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.49433976,
+    "pi_lower": 0.0955238,
+    "pi_upper": 0.89315573
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.37684182,
+    "pi_lower": -0.00219015,
+    "pi_upper": 0.7558738
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-11-15",
+    "reference_date": "2026-01-01",
+    "horizon": 2,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-12-15",
+    "reference_date": "2026-01-01",
+    "horizon": 1,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-10-15",
+    "reference_date": "2026-01-01",
+    "horizon": 3,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2026-01-15",
+    "reference_date": "2026-01-01",
+    "horizon": 0,
+    "prediction": 0.16,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.34686854,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.67205774,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.40934841,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.49498947,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.20097238,
+    "pi_lower": -0.12525404,
+    "pi_upper": 0.50344891
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.36346796,
+    "pi_lower": 0.03685852,
+    "pi_upper": 0.67127351
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.14195647,
+    "pi_lower": -0.18585567,
+    "pi_upper": 0.44613523
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.119566,
+    "pi_lower": -0.2027587,
+    "pi_upper": 0.42863113
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.42,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.4886,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.5,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.492,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.54246769,
+    "pi_lower": 0.41573772,
+    "pi_upper": 0.66895955
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.97714659,
+    "pi_lower": 0.84663363,
+    "pi_upper": 1.09548457
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.36809374,
+    "pi_lower": 0.2359631,
+    "pi_upper": 0.49411926
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.74048419,
+    "pi_lower": 0.615829,
+    "pi_upper": 0.86301355
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.42166667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.3825,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.41833333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.365,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.18,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.67555865,
+    "pi_lower": 0.28235924,
+    "pi_upper": 1.06875807
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.48460515,
+    "pi_lower": 0.14087238,
+    "pi_upper": 0.82833791
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.53055542,
+    "pi_lower": 0.15140043,
+    "pi_upper": 0.90971041
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.62491822,
+    "pi_lower": 0.2252146,
+    "pi_upper": 1.02462185
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-12-01",
+    "horizon": 2,
+    "prediction": 0.52,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-12-01",
+    "horizon": 1,
+    "prediction": 0.52,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-12-15",
+    "reference_date": "2025-12-01",
+    "horizon": 0,
+    "prediction": 0.52,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-12-01",
+    "horizon": 3,
+    "prediction": 0.52,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.42664746,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
+    "horizon": 0,
+    "prediction": 0.26319095,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.61307205,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.43225523,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
+    "horizon": 0,
+    "prediction": 0.14195647,
+    "pi_lower": -0.18585567,
+    "pi_upper": 0.44613523
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.119566,
+    "pi_lower": -0.2027587,
+    "pi_upper": 0.42863113
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.36346796,
+    "pi_lower": 0.03685852,
+    "pi_upper": 0.67127351
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.17256985,
+    "pi_lower": -0.14578797,
+    "pi_upper": 0.48311157
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
     "horizon": 0,
     "prediction": 0.21,
     "pi_lower": null,
     "pi_upper": null
   },
   {
-    "model": "random_walk",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.46,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.7529122,
-    "pi_lower": -1214299983.9410532,
-    "pi_upper": 1214299985.4468777
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.55119281,
-    "pi_lower": -90482441.70884319,
-    "pi_upper": 90482442.8112288
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-07-15",
-    "reference_date": "2024-07-01",
-    "horizon": 0,
-    "prediction": 0.12,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-07-01",
-    "horizon": 1,
-    "prediction": 0.12,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.33883519,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.15148087,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.37070003,
-    "pi_lower": -0.09382095,
-    "pi_upper": 0.81949885
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.48758763,
-    "pi_lower": 0.0298523,
-    "pi_upper": 0.93149248
-  },
-  {
     "model": "focus_median",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.46,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.38,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.33621476,
-    "pi_lower": 0.27795045,
-    "pi_upper": 0.38978322
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.34793239,
-    "pi_lower": 0.28716001,
-    "pi_upper": 0.40179171
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.32166667,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.3025,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": 0.46,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.38,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": -0.36935979,
-    "pi_lower": -1100462532.8634589,
-    "pi_upper": 1100462532.1247394
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": 0.29787316,
-    "pi_lower": -0.36339353,
-    "pi_upper": 0.95913985
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-06-15",
-    "reference_date": "2024-06-01",
-    "horizon": 0,
-    "prediction": -0.08,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-06-01",
-    "horizon": 1,
-    "prediction": -0.08,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.34025794,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.31983678,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.37070003,
-    "pi_lower": -0.09382095,
-    "pi_upper": 0.81949885
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.63246583,
-    "pi_lower": 0.16,
-    "pi_upper": 1.08618466
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.38,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.16,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.34793239,
-    "pi_lower": 0.28716001,
-    "pi_upper": 0.40179171
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.29495816,
-    "pi_lower": 0.24130306,
-    "pi_upper": 0.34737891
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.32166667,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.3025,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.38,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.16,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.09334981,
-    "pi_lower": -7119892.47564663,
-    "pi_upper": 7119892.66234625
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.24087794,
-    "pi_lower": -0.33211674,
-    "pi_upper": 0.81387261
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-05-01",
-    "horizon": 1,
-    "prediction": 0.23,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-05-15",
-    "reference_date": "2024-05-01",
-    "horizon": 0,
-    "prediction": 0.23,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.71672077,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.42436258,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.44383212,
-    "pi_lower": 0.03349551,
-    "pi_upper": 0.88536989
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.63246583,
-    "pi_lower": 0.16,
-    "pi_upper": 1.08618466
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.16,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.83,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.80430048,
-    "pi_lower": 0.75835486,
-    "pi_upper": 0.84949456
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.29495816,
-    "pi_lower": 0.24130306,
-    "pi_upper": 0.34737891
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.3675,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.32166667,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.83,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.16,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.34566375,
-    "pi_lower": -6438696.85136662,
-    "pi_upper": 6438697.54269411
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.90202972,
-    "pi_lower": -839237816.5663447,
-    "pi_upper": 839237818.3704042
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-04-15",
-    "reference_date": "2024-04-01",
-    "horizon": 0,
-    "prediction": 0.61,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-04-01",
-    "horizon": 1,
-    "prediction": 0.61,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.86114546,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.60407239,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.44383212,
-    "pi_lower": 0.03349551,
-    "pi_upper": 0.88536989
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.24642936,
-    "pi_lower": -0.12989704,
-    "pi_upper": 0.66253635
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.42,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.83,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.80430048,
-    "pi_lower": 0.75835486,
-    "pi_upper": 0.84949456
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.39821306,
-    "pi_lower": 0.34867209,
-    "pi_upper": 0.44713521
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.3675,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.36833333,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.42,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.83,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 1.33530377,
-    "pi_lower": -758596291.8295885,
-    "pi_upper": 758596294.5001961
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 1.16757476,
-    "pi_lower": 0.55977318,
-    "pi_upper": 1.77537635
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-03-15",
-    "reference_date": "2024-03-01",
-    "horizon": 0,
-    "prediction": 0.71,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-03-01",
-    "horizon": 1,
-    "prediction": 0.71,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.28768016,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.50925471,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": -0.44531686,
-    "pi_lower": -0.82972471,
-    "pi_upper": -0.08759945
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.24642936,
-    "pi_lower": -0.12989704,
-    "pi_upper": 0.66253635
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.56,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.42,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.52558657,
-    "pi_lower": 0.47663545,
-    "pi_upper": 0.57557485
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.39821306,
-    "pi_lower": 0.34867209,
-    "pi_upper": 0.44713521
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.36833333,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.3775,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.42,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.56,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.88312171,
-    "pi_lower": 0.37411213,
-    "pi_upper": 1.39213129
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.78277076,
-    "pi_lower": 0.14760391,
-    "pi_upper": 1.41793761
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-02-15",
-    "reference_date": "2024-02-01",
-    "horizon": 0,
-    "prediction": 0.84,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-02-01",
-    "horizon": 1,
-    "prediction": 0.84,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.3058647,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.11695352,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": -0.44531686,
-    "pi_lower": -0.82972471,
-    "pi_upper": -0.08759945
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.46794179,
-    "pi_lower": 0.07556897,
-    "pi_upper": 0.83048384
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
     "prediction": 0.28,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.56,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.52558657,
-    "pi_lower": 0.47663545,
-    "pi_upper": 0.57557485
-  },
-  {
-    "model": "gradient_boosting",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
     "horizon": 1,
-    "prediction": 0.30492219,
-    "pi_lower": 0.25942838,
-    "pi_upper": 0.34914419
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.3825,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "historical_mean",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.3775,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.56,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "random_walk",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.28,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.14473011,
-    "pi_lower": -0.52799489,
-    "pi_upper": 0.81745511
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.27059087,
-    "pi_lower": -0.27952265,
-    "pi_upper": 0.82070439
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2024-01-15",
-    "reference_date": "2024-01-01",
-    "horizon": 0,
-    "prediction": 0.53,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2023-12-15",
-    "reference_date": "2024-01-01",
-    "horizon": 1,
-    "prediction": 0.53,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
-    "horizon": 0,
-    "prediction": 0.38515879,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.27599063,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.24188037,
-    "pi_lower": -0.13317376,
-    "pi_upper": 0.59322286
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
-    "horizon": 0,
-    "prediction": 0.46794179,
-    "pi_lower": 0.07556897,
-    "pi_upper": 0.83048384
-  },
-  {
-    "model": "focus_median",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.24,
+    "prediction": 0.25,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
-    "horizon": 0,
-    "prediction": 0.28,
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.2576,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
     "horizon": 0,
-    "prediction": 0.30492219,
-    "pi_lower": 0.25942838,
-    "pi_upper": 0.34914419
+    "prediction": 0.36809374,
+    "pi_lower": 0.2359631,
+    "pi_upper": 0.49411926
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.74048419,
+    "pi_lower": 0.615829,
+    "pi_upper": 0.86301355
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
     "horizon": 1,
-    "prediction": 0.21653359,
-    "pi_lower": 0.1748701,
-    "pi_upper": 0.25891608
+    "prediction": 0.97714659,
+    "pi_lower": 0.84663363,
+    "pi_upper": 1.09548457
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.64524267,
+    "pi_lower": 0.51902678,
+    "pi_upper": 0.75837528
   },
   {
     "model": "historical_mean",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.39333333,
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.41833333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "historical_mean",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.42166667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.42583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
     "horizon": 0,
     "prediction": 0.3825,
     "pi_lower": null,
@@ -1603,152 +3781,593 @@
   },
   {
     "model": "random_walk",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
     "horizon": 0,
+    "prediction": 0.09,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.4198922,
+    "pi_lower": 0.02586473,
+    "pi_upper": 0.81391966
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
+    "horizon": 0,
+    "prediction": 0.27952265,
+    "pi_lower": -0.06467197,
+    "pi_upper": 0.62371727
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.47895316,
+    "pi_lower": 0.07977041,
+    "pi_upper": 0.87813592
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.4986016,
+    "pi_lower": 0.11935817,
+    "pi_upper": 0.87784503
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-11-01",
+    "horizon": 2,
+    "prediction": 0.39,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-11-01",
+    "horizon": 1,
+    "prediction": 0.39,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-11-15",
+    "reference_date": "2025-11-01",
+    "horizon": 0,
+    "prediction": 0.39,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-11-01",
+    "horizon": 3,
+    "prediction": 0.39,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.43472504,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.57349524,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.63587083,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.45069391,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.36346796,
+    "pi_lower": 0.03685852,
+    "pi_upper": 0.67127351
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.17256985,
+    "pi_lower": -0.14578797,
+    "pi_upper": 0.48311157
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.119566,
+    "pi_lower": -0.2027587,
+    "pi_upper": 0.42863113
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.2076797,
+    "pi_lower": -0.11142704,
+    "pi_upper": 0.51855832
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.25,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.297,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.36,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.4,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.97714659,
+    "pi_lower": 0.84663363,
+    "pi_upper": 1.09548457
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.64524267,
+    "pi_lower": 0.51902678,
+    "pi_upper": 0.75837528
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.98751019,
+    "pi_lower": 0.85824696,
+    "pi_upper": 1.11346284
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.74048419,
+    "pi_lower": 0.615829,
+    "pi_upper": 0.86301355
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.41833333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.42583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.42166667,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.43583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": -0.11,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.48,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.5342692,
+    "pi_lower": 0.14069202,
+    "pi_upper": 0.92784638
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.56699792,
+    "pi_lower": 0.22392217,
+    "pi_upper": 0.91007368
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.52529583,
+    "pi_lower": 0.1250968,
+    "pi_upper": 0.92549485
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.44412495,
+    "pi_lower": 0.06424164,
+    "pi_upper": 0.82400826
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-10-01",
+    "horizon": 1,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-10-01",
+    "horizon": 2,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-10-01",
+    "horizon": 3,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-10-15",
+    "reference_date": "2025-10-01",
+    "horizon": 0,
+    "prediction": 0.56,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.59728704,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.35994483,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
+    "horizon": 1,
+    "prediction": 0.39348817,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.51439184,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.119566,
+    "pi_lower": -0.2027587,
+    "pi_upper": 0.42863113
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.2076797,
+    "pi_lower": -0.11142704,
+    "pi_upper": 0.51855832
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.28445416,
+    "pi_lower": -0.03510456,
+    "pi_upper": 0.59504268
+  },
+  {
+    "model": "elasticnet",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
+    "horizon": 1,
+    "prediction": 0.17256985,
+    "pi_lower": -0.14578797,
+    "pi_upper": 0.48311157
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.59,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "focus_median",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
     "prediction": 0.28,
     "pi_lower": null,
     "pi_upper": null
   },
   {
-    "model": "random_walk",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.24,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
-    "horizon": 0,
-    "prediction": 0.38261238,
-    "pi_lower": -0.17869117,
-    "pi_upper": 0.94391592
-  },
-  {
-    "model": "sarima",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.36955795,
-    "pi_lower": -0.32064636,
-    "pi_upper": 1.05976225
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2023-12-15",
-    "reference_date": "2023-12-01",
-    "horizon": 0,
-    "prediction": 0.62,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "seasonal_naive",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-12-01",
-    "horizon": 1,
-    "prediction": 0.62,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.24021746,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "combo_mean",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
-    "horizon": 1,
-    "prediction": 0.33139528,
-    "pi_lower": null,
-    "pi_upper": null
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.24188037,
-    "pi_lower": -0.13317376,
-    "pi_upper": 0.59322286
-  },
-  {
-    "model": "elasticnet",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
-    "horizon": 1,
-    "prediction": 0.11986315,
-    "pi_lower": -0.27390897,
-    "pi_upper": 0.51170629
-  },
-  {
     "model": "focus_median",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
     "horizon": 1,
-    "prediction": 0.26,
+    "prediction": 0.55,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "focus_median",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.24,
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.33,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.21653359,
-    "pi_lower": 0.1748701,
-    "pi_upper": 0.25891608
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.98751019,
+    "pi_lower": 0.85824696,
+    "pi_upper": 1.11346284
   },
   {
     "model": "gradient_boosting",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 1.15912404,
+    "pi_lower": 1.03159948,
+    "pi_upper": 1.28121376
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
     "horizon": 1,
-    "prediction": 0.2969759,
-    "pi_lower": 0.23445658,
-    "pi_upper": 0.34175387
+    "prediction": 0.64524267,
+    "pi_lower": 0.51902678,
+    "pi_upper": 0.75837528
+  },
+  {
+    "model": "gradient_boosting",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.74048419,
+    "pi_lower": 0.615829,
+    "pi_upper": 0.86301355
   },
   {
     "model": "historical_mean",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.39333333,
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
+    "horizon": 1,
+    "prediction": 0.42583333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "historical_mean",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
-    "horizon": 1,
-    "prediction": 0.4225,
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.43583333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.41833333,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "historical_mean",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.43333333,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "random_walk",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.24,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
     "horizon": 1,
     "prediction": 0.26,
     "pi_lower": null,
@@ -1756,46 +4375,127 @@
   },
   {
     "model": "random_walk",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.26,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "random_walk",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
     "horizon": 0,
-    "prediction": 0.24,
+    "prediction": -0.11,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "sarima",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
-    "horizon": 0,
-    "prediction": 0.26223842,
-    "pi_lower": -0.31290489,
-    "pi_upper": 0.83738172
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.34798562,
+    "pi_lower": -0.04657982,
+    "pi_upper": 0.74255107
   },
   {
     "model": "sarima",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
     "horizon": 1,
-    "prediction": 0.57734678,
-    "pi_lower": -0.09852434,
-    "pi_upper": 1.25321789
+    "prediction": 0.36265198,
+    "pi_lower": -0.0168662,
+    "pi_upper": 0.74217016
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
+    "horizon": 0,
+    "prediction": 0.2197843,
+    "pi_lower": -0.12331309,
+    "pi_upper": 0.5628817
+  },
+  {
+    "model": "sarima",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.34828293,
+    "pi_lower": -0.05262755,
+    "pi_upper": 0.7491934
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2023-10-15",
-    "reference_date": "2023-11-01",
-    "horizon": 1,
-    "prediction": 0.41,
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-09-01",
+    "horizon": 2,
+    "prediction": 0.44,
     "pi_lower": null,
     "pi_upper": null
   },
   {
     "model": "seasonal_naive",
-    "origin_date": "2023-11-15",
-    "reference_date": "2023-11-01",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-09-01",
+    "horizon": 1,
+    "prediction": 0.44,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-09-15",
+    "reference_date": "2025-09-01",
     "horizon": 0,
-    "prediction": 0.41,
+    "prediction": 0.44,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "seasonal_naive",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-09-01",
+    "horizon": 3,
+    "prediction": 0.44,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-05-15",
+    "reference_date": "2025-08-01",
+    "horizon": 3,
+    "prediction": 0.54068007,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-06-15",
+    "reference_date": "2025-08-01",
+    "horizon": 2,
+    "prediction": 0.53748596,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-07-15",
+    "reference_date": "2025-08-01",
+    "horizon": 1,
+    "prediction": 0.45457706,
+    "pi_lower": null,
+    "pi_upper": null
+  },
+  {
+    "model": "combo_mean",
+    "origin_date": "2025-08-15",
+    "reference_date": "2025-08-01",
+    "horizon": 0,
+    "prediction": 0.33654988,
     "pi_lower": null,
     "pi_upper": null
   }

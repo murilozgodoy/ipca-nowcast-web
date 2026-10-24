@@ -1,26 +1,98 @@
 [
   {
-    "reference_date": "2025-01-01",
-    "collected_at": "2024-10-25",
-    "median": 0.55,
-    "mean": 0.56,
-    "std_dev": 0.07,
-    "n_respondents": 57
+    "reference_date": "2028-10-01",
+    "collected_at": "2026-10-16",
+    "median": 0.3,
+    "mean": 0.2967,
+    "std_dev": 0.0867,
+    "n_respondents": 41
   },
   {
-    "reference_date": "2024-12-01",
-    "collected_at": "2024-10-25",
+    "reference_date": "2028-09-01",
+    "collected_at": "2026-10-16",
+    "median": 0.29,
+    "mean": 0.3028,
+    "std_dev": 0.122,
+    "n_respondents": 94
+  },
+  {
+    "reference_date": "2028-08-01",
+    "collected_at": "2026-10-16",
+    "median": 0.1492,
+    "mean": 0.1125,
+    "std_dev": 0.1737,
+    "n_respondents": 98
+  },
+  {
+    "reference_date": "2028-07-01",
+    "collected_at": "2026-10-16",
+    "median": 0.2,
+    "mean": 0.1959,
+    "std_dev": 0.0997,
+    "n_respondents": 100
+  },
+  {
+    "reference_date": "2028-06-01",
+    "collected_at": "2026-10-16",
+    "median": 0.21,
+    "mean": 0.2118,
+    "std_dev": 0.0842,
+    "n_respondents": 101
+  },
+  {
+    "reference_date": "2028-05-01",
+    "collected_at": "2026-10-16",
+    "median": 0.28,
+    "mean": 0.2856,
+    "std_dev": 0.0792,
+    "n_respondents": 101
+  },
+  {
+    "reference_date": "2028-04-01",
+    "collected_at": "2026-10-16",
+    "median": 0.3558,
+    "mean": 0.3739,
+    "std_dev": 0.081,
+    "n_respondents": 101
+  },
+  {
+    "reference_date": "2028-03-01",
+    "collected_at": "2026-10-16",
+    "median": 0.3397,
+    "mean": 0.3583,
+    "std_dev": 0.1038,
+    "n_respondents": 103
+  },
+  {
+    "reference_date": "2028-02-01",
+    "collected_at": "2026-10-16",
+    "median": 0.5325,
+    "mean": 0.5339,
+    "std_dev": 0.1142,
+    "n_respondents": 104
+  },
+  {
+    "reference_date": "2028-01-01",
+    "collected_at": "2026-10-16",
+    "median": 0.4,
+    "mean": 0.3974,
+    "std_dev": 0.0907,
+    "n_respondents": 104
+  },
+  {
+    "reference_date": "2027-12-01",
+    "collected_at": "2026-10-16",
     "median": 0.48,
-    "mean": 0.49,
-    "std_dev": 0.07,
-    "n_respondents": 59
+    "mean": 0.4759,
+    "std_dev": 0.0966,
+    "n_respondents": 125
   },
   {
-    "reference_date": "2024-11-01",
-    "collected_at": "2024-10-25",
-    "median": 0.39,
-    "mean": 0.4,
-    "std_dev": 0.05,
-    "n_respondents": 61
+    "reference_date": "2027-11-01",
+    "collected_at": "2026-10-16",
+    "median": 0.27,
+    "mean": 0.2657,
+    "std_dev": 0.0942,
+    "n_respondents": 125
   }
 ]

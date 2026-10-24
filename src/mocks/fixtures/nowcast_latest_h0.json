@@ -5,46 +5,46 @@
   "models": [
     {
       "model": "random_walk",
-      "prediction": 0.56,
+      "prediction": 0.82,
       "pi_lower": null,
       "pi_upper": null
     },
     {
       "model": "historical_mean",
-      "prediction": 0.38833333333333336,
+      "prediction": 0.3741666666666667,
       "pi_lower": null,
       "pi_upper": null
     },
     {
       "model": "seasonal_naive",
-      "prediction": 0.56,
+      "prediction": 0.09,
       "pi_lower": null,
       "pi_upper": null
     },
     {
       "model": "elasticnet",
-      "prediction": 0.4684531350559264,
-      "pi_lower": 0.0314982883111693,
-      "pi_upper": 0.8922406739974653
+      "prediction": 0.5048410270341696,
+      "pi_lower": 0.1682187901616478,
+      "pi_upper": 0.8122951487737476
     },
     {
       "model": "sarima",
-      "prediction": 0.4397285950993916,
-      "pi_lower": -208843214.21415615,
-      "pi_upper": 208843215.09361333
+      "prediction": 0.6477172055143307,
+      "pi_lower": 0.30236493215756,
+      "pi_upper": 0.9930694788711013
     },
     {
       "model": "gradient_boosting",
-      "prediction": 0.543869441894849,
-      "pi_lower": 0.48691084201960383,
-      "pi_upper": 0.5968083747476833
+      "prediction": 0.787898874044316,
+      "pi_lower": 0.6555427980977915,
+      "pi_upper": 0.9225953737316337
     },
     {
       "model": "combo_mean",
-      "prediction": 0.4840170573500557,
+      "prediction": 0.6468190355309388,
       "pi_lower": null,
       "pi_upper": null
     }
   ],
-  "focus_median": 0.56
+  "focus_median": 0.32
 }
